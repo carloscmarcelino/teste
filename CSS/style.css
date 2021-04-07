@@ -197,59 +197,64 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ CABEÇALHO ------------------------------------------------------------*/
   #cabecalho{
     display: flex;
+    border: 1px solid red;
   }
   #cabecalho .cabecalho-container{
     flex-direction: column;
   }
   #cabecalho .cabecalho-container .container-titulo{
     text-align: center;
-    width: 100%;
     margin: 0;
     font-size: 0px;
   }
   #cabecalho .cabecalho-container .container-info{
-    width: 100%;
-    margin: 5% 0 3%;;
+    margin: 5% 0 10px 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
   }
   /*------------------------------------------------------------ CABEÇALHO ------------------------------------------------------------*/
   /*------------------------------------------------------------ CONTEUDO ------------------------------------------------------------*/
   #conteudo{
-    text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
     height: 1300px;
+    border: 1px solid red;
   }
   #conteudo .conteudo-container{
     margin: 0;
     padding: 0;
     height: 1300px;
-    padding-top: 50px;
     width: 100%;
-    font-size: 42px;
     text-align: left;
   }
   #conteudo .conteudo-container .conteudo-text{
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
   }
   #conteudo .conteudo-container h2.conteudo-text{
-    font-size: 105px;
+    font-size: 100px;
+    /*margin-top: 50px;*/
+    margin-bottom: 30px;
   }
   #conteudo .conteudo-container h1.conteudo-text{
-    font-size: 130px;
+    font-size: 105px;
+    margin-bottom: 30px;
   }
   #conteudo .conteudo-container p.conteudo-text{
-    font-size: 60px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }
   #conteudo .conteudo-container a.conteudo-text{
-    font-size: 60px;
+    font-size: 45px;
     color: #00FF00;
+    margin-bottom: 30px;
   }
   /*------------------------------------------------------------ CONTEUDO ------------------------------------------------------------*/
   /*------------------------------------------------------------ RODAPE ------------------------------------------------------------*/
   footer{
+    border: 1px solid red;
     height: 250px;
     margin: 0;
     padding: 0;
@@ -272,6 +277,7 @@ footer .rodape i:hover{
     height: 1300px;
     width: 100%;
     display: block;
+    border: 1px solid red;
   }
   #sobremim .sobremim-container{
     width: 100%;
@@ -300,6 +306,7 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
   #portifolio{
     height: 1300px;
+    border: 1px solid red;
   }
   #portifolio .portifolio-container{
     width: 100%;
