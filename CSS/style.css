@@ -5,8 +5,6 @@
   list-style-type: none;
   color: #fff;
   text-decoration: none;
-  /*font-family: 'Roboto', sans-serif;*/
-  /*font-family: 'Roboto Slab', serif;*/
 }
 body{
   background: #181815;
@@ -42,7 +40,6 @@ body{
 #cabecalho .container-info a{
   padding: 0px 20px;
 }
-
 .laranja{
   color: orange;
 }
@@ -56,25 +53,24 @@ body{
 #conteudo .conteudo-container{
   width: auto;
   display: inline-block;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 2%;
   font-size: 20px;
 }
 #conteudo .conteudo-container h2{
-  padding: 12px 20px;
   font-family: 'Roboto Slab', serif;
+  margin: 0 0 20px 0;
 }
 #conteudo .conteudo-container h1{
-  padding: 12px 20px;
   font-family: 'Roboto Slab', serif;
+  margin: 0 0 20px 0;
 }
 #conteudo .conteudo-container p{
-  padding: 12px 20px;
   font-family: arial;
   font-size: 16px;
+  margin: 0;
 }
 #conteudo .conteudo-container a{
-  padding: 12px 20px;
   font-family: arial;
   font-size: 16px;
   color: #00FF00;
@@ -89,7 +85,6 @@ footer{
   width: 100%;
   text-align: center;
 }
-
 footer .rodape h2{
   font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
@@ -189,15 +184,11 @@ footer .rodape i:hover{
   padding-right: 5px;
 }
 /*---------------------------------------------------   SETUP   -----------------------------------------------------------*/
-/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
-/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
+/*------------------------------------------------------------ MOBILE ------------------------------------------------------------*/
 @media (max-width: 1000px){
-/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
-/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
   /*------------------------------------------------------------ CABEÇALHO ------------------------------------------------------------*/
   #cabecalho{
     display: flex;
-    border: 1px solid red;
   }
   #cabecalho .cabecalho-container{
     flex-direction: column;
@@ -219,7 +210,6 @@ footer .rodape i:hover{
     margin: 0;
     padding: 0;
     height: 1300px;
-    border: 1px solid red;
   }
   #conteudo .conteudo-container{
     margin: 0;
@@ -231,30 +221,28 @@ footer .rodape i:hover{
   #conteudo .conteudo-container .conteudo-text{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
   }
   #conteudo .conteudo-container h2.conteudo-text{
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 30px;
     margin-top: 20%;
   }
   #conteudo .conteudo-container h1.conteudo-text{
-    font-size: 105px;
+    font-size: 90px;
     margin-bottom: 30px;
   }
   #conteudo .conteudo-container p.conteudo-text{
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
   #conteudo .conteudo-container a.conteudo-text{
-    font-size: 45px;
+    font-size: 40px;
     color: #00FF00;
     margin-bottom: 30px;
   }
   /*------------------------------------------------------------ CONTEUDO ------------------------------------------------------------*/
   /*------------------------------------------------------------ RODAPE ------------------------------------------------------------*/
   footer{
-    border: 1px solid red;
     height: 250px;
     margin: 0;
     padding: 0;
@@ -277,7 +265,6 @@ footer .rodape i:hover{
     height: 1300px;
     width: 100%;
     display: block;
-    border: 1px solid red;
   }
   #sobremim .sobremim-container{
     width: 100%;
@@ -285,10 +272,10 @@ footer .rodape i:hover{
     margin: 0;
   }
   #sobremim .sobremim-container h2{
-    font-size: 90px;
+    font-size: 80px;
   }
   #sobremim .sobremim-container p{
-    font-size: 45px;
+    font-size: 40px;
   }
   #sobremim .sobremim-img{
     width: 100%;
@@ -305,7 +292,6 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
   #portifolio{
     height: 1300px;
-    border: 1px solid red;
   }
   #portifolio .portifolio-container{
     width: 100%;
@@ -325,7 +311,7 @@ footer .rodape i:hover{
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 50px;
   }
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
@@ -335,28 +321,24 @@ footer .rodape i:hover{
     width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   #setup .setup-container{
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-top: 20%;
     text-align: center;
   }
   #setup .setup-container h2{
-    font-size: 120px;
+    font-size: 80px;
   }
   #setup .setup-container ul{
-    font-size: 90px;
-    text-align: left;
-  }
-  #setup .setup-container ul li{
-  }
-  #setup .setup-container ul i{
+    font-size: 40px;
+    text-align: center;
   }
   /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
+  /*------------------------------------------------------------ MOBILE ------------------------------------------------------------*/
+  /*------------------------------------------------------------ LOADING BAR ------------------------------------------------------------*/
 }
 /* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
@@ -367,11 +349,9 @@ footer .rodape i:hover{
   -moz-user-select: none;
   user-select: none;
 }
-
 .pace-inactive {
   display: none;
 }
-
 .pace .pace-progress {
   background: #eb7a55;
   position: fixed;
@@ -381,3 +361,4 @@ footer .rodape i:hover{
   width: 100%;
   height: 2px;
 }
+/*------------------------------------------------------------ LOADING BAR ------------------------------------------------------------*/
