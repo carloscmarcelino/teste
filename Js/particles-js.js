@@ -1,8 +1,8 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 160,
-      density: { enable: true, value_area: 800}
+      value: 600,
+      density: { enable: false, value_area: 800}
     },
     color: {
       value: "#ffffff"
