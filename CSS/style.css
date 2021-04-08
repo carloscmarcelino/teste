@@ -1,3 +1,4 @@
+/*---------------------------------------------------   ALL   --------------------------------------------------------*/
 *{
   margin: 0;
   padding: 0;
@@ -6,9 +7,19 @@
   color: #fff;
   text-decoration: none;
 }
+/*---------------------------------------------------   ALL   --------------------------------------------------------*/
+/*---------------------------------------------------   BODY   --------------------------------------------------------*/
 body{
   background: #181815;
 }
+/*---------------------------------------------------   BODY   --------------------------------------------------------*/
+/*---------------------------------------------------   PARTICLES   --------------------------------------------------------*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/*---------------------------------------------------   PARTICLES   --------------------------------------------------------*/
 /*---------------------------------------------------   MENU   --------------------------------------------------------*/
 #cabecalho{
   width: 100%;
@@ -39,6 +50,7 @@ body{
 }
 #cabecalho .container-info a{
   padding: 0px 20px;
+  position: relative;
 }
 .laranja{
   color: orange;
@@ -74,6 +86,7 @@ body{
   font-family: arial;
   font-size: 16px;
   color: #00FF00;
+  position: absolute;
 }
 .vermelho{
   color: red;
@@ -88,6 +101,7 @@ footer{
 footer .rodape i{
   font-size: 25px;
   margin-left: 20px;
+  position: relative;
 }
 footer .rodape i:hover{
   color: orange;
@@ -150,33 +164,33 @@ footer .rodape i:hover{
   display: block;
   text-align: left;
   color: #00FF00;
+  position: relative;
 }
 /*---------------------------------------------------   PORTIFOLIO   ------------------------------------------------------*/
 /*---------------------------------------------------   SETUP  ------------------------------------------------------------*/
 #setup{
   height: 740px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #setup .setup-container{
-  display: inline-block;
-  height: auto;
-  text-align: left;
-  margin-top: 10%;
-  margin-left: 45%;
+  text-align: center;
+  margin-top: -10%;
 }
 #setup .setup-container h2{
-  font-size: 40px;
-  padding-left: 10px;
-}
-#setup .setup-container ul{
-  font-size: 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 #setup .setup-container ul a{
-  display: block;
-  padding: 10px 15px;
+  position: relative;
+  font-size: 25px;
 }
 #setup .setup-container ul a i{
-  padding-right: 5px;
+  padding-bottom: 20px;
 }
 /*---------------------------------------------------   SETUP   -----------------------------------------------------------*/
 /*------------------------------------------------------------ MOBILE ------------------------------------------------------------*/
@@ -308,6 +322,9 @@ footer .rodape i:hover{
     font-size: 40px;
     margin-top: 50px;
   }
+  #portifolio .portifolio-container .portifolio-link{
+    text-align: left;
+  }
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
   /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
   #setup{
@@ -315,21 +332,20 @@ footer .rodape i:hover{
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
   }
   #setup .setup-container{
+    height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-top: 20%;
-    text-align: center;
+    padding-top: 150px;
   }
   #setup .setup-container h2{
     font-size: 80px;
   }
   #setup .setup-container ul{
+  }
+  #setup .setup-container ul a{
     font-size: 40px;
-    text-align: left;
-    padding-left: 25%;
   }
   /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
   /*------------------------------------------------------------ MOBILE ------------------------------------------------------------*/
