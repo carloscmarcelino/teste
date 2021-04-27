@@ -22,9 +22,10 @@ body{
 /*----------------------------------------------PADRÃO----------------------------------------------*/
 /*----------------------------------------------HEADER----------------------------------------------*/
 header{
-    width: 99vw;
+    width: 100vw;
     height: 10vh;
     background-color: #0f0f0a;
+    position: fixed;
 }
 header .container{
     display: flex;
@@ -57,7 +58,7 @@ header .container-lista li a:hover{
 /*----------------------------------------------HEADER----------------------------------------------*/
 /*----------------------------------------------INICIO----------------------------------------------*/
 #inicio{
-    height: 90vh;
+    height: 100vh;
     width: 99vw;
     display: flex;
     align-items: center;
@@ -81,12 +82,13 @@ header .container-lista li a:hover{
 #inicio .inicio-container p, a{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
+
 }
 /*----------------------------------------------INICIO----------------------------------------------*/
 /*----------------------------------------------SOBREMIM----------------------------------------------*/
 #sobremim{
     width: 99vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +120,7 @@ header .container-lista li a:hover{
 /*----------------------------------------------PORTIFOLIO----------------------------------------------*/
 #portifolio{
     width: 99vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,6 +164,7 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 25px;
     color: orange;
+    padding-top: 10px;
 }
 #skills .skills-container{
     display: flex;
@@ -212,6 +215,115 @@ footer i:hover{
 /*----------------------------------------------FOOTER----------------------------------------------*/
 @media only screen and (max-width: 1000px){
     *{
-        color: red;
+
     }
 }
+
+@media only screen and (max-width: 460px){
+    header .container{
+        flex-direction: column;
+        text-align: center;
+        width: 100vw;
+    }
+    header .container .container-icon{
+        display: none;
+    }
+    #inicio{
+        height: 80vh;
+        width: 100vw;
+    }
+    #inicio .inicio-container{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+    }
+    #sobremim{
+        height: 60vh;
+        width: 100vw;
+    }
+    #sobremim .sobremim-container{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    #sobremim .sobremim-container img{
+        padding: 0;
+        margin: 0;
+    }
+    #sobremim .sobremim-container .coments{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sobremim .sobremim-container .coments p{
+        width: 70%;
+        height: 100%;
+        padding-top: 5%;
+    }
+    #sobremim .sobremim-container .coments h2{
+        width: 50%;
+    }
+
+    #portifolio{
+        height: 50vh;
+        width: 100vw;
+    }
+    #portifolio .portifolio-container{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    #portifolio .portifolio-container img{
+        padding: 0;
+        margin: 0;
+    }
+    #portifolio .portifolio-container .coments{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #portifolio .portifolio-container .coments p{
+        width: 70%;
+        height: 100%;
+        padding-top: 5%;
+    }
+    #portifolio .portifolio-container .coments h2{
+        width: 50%;
+    }
+
+
+
+
+
+
+    
+    #skills{
+        width: 100%;
+    }
+    #skills .skills-container{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #skills .skills-container ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #skills .skills-container li{
+    }
+    #skills .skills-container i{
+    }
+    #skills .skills-container li p{
+    }
+
+}
+
