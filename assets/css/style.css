@@ -187,7 +187,6 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 25px;
     color: orange;
-    padding-top: ;
     text-align: center;
 }
 #skills .container{
@@ -234,9 +233,24 @@ footer i:hover{
     color: orange;
 }
 /*----------------------------------------------FOOTER----------------------------------------------*/
+@media only screen and (max-width: 1090px){
+    #skills .container{
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    }
+}
 @media only screen and (max-width: 1000px){
-    *{
-
+    #inicio{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    #inicio .inicio-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -320,8 +334,14 @@ footer i:hover{
     #portifolio .portifolio-container .coments h2{
         width: 50%;
     }
-    #skills .container{
-        grid-template-columns: repeat(2, minmax(20px,1fr));
+}
+@media only screen and (max-width: 356px){
+    header .container-lista li a{
+        font-size: 14px;  
     }
-
+}
+@media only screen and (max-width: 311px){
+    header .container-lista li a{
+        font-size: 12px;  
+    }
 }
