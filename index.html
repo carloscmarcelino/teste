@@ -1,48 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="shortcut icon" href="img/react.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <title></Carlos></title>
-  </head>
-  <body>
-    <div id="particles-js"></div>
-    <header id="cabecalho">
-      <div class="cabecalho-container">
-        <h2 class="container-titulo"><a href="index.html"><i class="fas fa-code"></i></a></h2>
-        <div class="container-info">
-          <a href="index.html"class="laranja">Inicio</a>
-          <a href="sobremim.html">Sobre mim</a>
-          <a href="portifolio.html">Portfólio</a>
-          <a href="setup.html">Setup</a>
+<html lang="pt-br">
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTAWESOME--><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--ICON--><link rel="shortcut icon" href="assets/img/react.png">
+    <!--GOOGLE-FONTS-FIRE-CODE--><link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--GOOGLE-FONTS-FIRE-CODE--><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&display=swap" rel="stylesheet">
+    <!--CSS--><link rel="stylesheet" href="assets/css/style.css">
+    <title>carlos</title>
+</head>
+<!--HEAD-->
+<body>
+<!--HEADER-->
+    <header>
+        <div class="container">
+            <div class="container-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="container-lista">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#portifolio">Portifolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+            </div>
         </div>
-      </div>
     </header>
-    <main id="conteudo">
-      <div class="conteudo-container">
-        <h2 class="conteudo-text">Opa, Sou <span class="laranja">Carlos <i class="fas fa-code"></i></span></h2>
-        <h1 class="conteudo-text">Desenvolvedor Front End</h1>
-        <p class="conteudo-text">Cursando ciência da computação <span class="vermelho">(3/8)</span>, <br>
-           Amante de café e gamer nas horas vagas.
-        </p>
-        <a class="conteudo-text" href="sobremim.html">Quer saber mais?</a>
-      </div>
+<!--HEADER-->
+<!--MAIN-->
+    <main>
+        <!--INICIO-->
+        <div id="inicio">
+            <div class="inicio-container">
+                <h2>Opa, Sou <span class="laranja">Carlos</span> </h2>
+                <h1>Desenvolvedor Front End</h1>
+                <p>Cursando ciência da computação <span class="vermelho">(3/8)</span>, <br>
+                    Amante de café e gamer nas horas vagas.
+                </p>
+                <a href=""> <span class="verde">Quer saber mais?</span> </a>
+            </div>
+        </div>
+        <!--INICIO-->
+        <!--SOBREMIM-->
+        <div id="sobremim">
+            <div class="sobremim-container">
+            <img src="assets/img/IMG_20210114_174656_936.jpg" alt="">
+            <div class="coments">
+                <h2>Sobre mim</h2>
+                <p>Me chamo Carlos Cesar, sou Recifense, tenho 19 anos e atuo na área de desenvolvimento web desde 2020. Estou no 3º período de ciência da computação e no momento estou focado em JavaScript e em busca de um estágio na area de web design.</p>
+            </div>
+        </div>
+        </div>
+        <!--SOBREMIM-->
+        <!--PORTIFOLIO-->
+        <div id="portifolio">
+            <div class="portifolio-container">
+            <a href=""> <img src="assets/img/github.png" alt=""> </a>
+            <div class="coments">
+                <h2>Portifólio</h2>
+                <p>É no github onde eu posto todos os meus projetos desde o inicio da minha jornada. Em meus repositórios tenho vários códigos, atividades e projetos em andamento.</p>
+            </div>
+        </div>
+        </div>
+        <!--PORTIFOLIO-->
+        <!--SKILLS-->
+        <div id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-js-square"></i>
+                        <p>JavaScript</p>
+                    </li>
+            </div>
+            </div>
+        </div>
+        <!--SKILLS-->
     </main>
+<!--MAIN-->
+<!--FOOTER-->
     <footer>
-      <div class="rodape">
-        <a href="https://github.com/carloscmarcelino"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/carloscmarcelino/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/carlos-marcelino-3829a2202/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://vsco.co/carloscmarcelino/gallery"><i class="fas fa-camera"></i></a>
-      </div>
+        <div>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </footer>
-  </body>
-  <script type="text/javascript" src="Js\particles.min.js"></script>
-  <script type="text/javascript" src="Js\particles-js.js"></script>
+<!--FOOTER-->
+</body>
 </html>
