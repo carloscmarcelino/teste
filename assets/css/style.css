@@ -1,3 +1,5 @@
+/*Colocar o botao darkmode junto com um botar que mostra inicio sobremim etc. em 100px*/
+/*Ajustar no css gradient*/
 /* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
     -webkit-pointer-events: none;
@@ -17,8 +19,55 @@
     right: 100%;
     width: 100%;
     height: 2px;
-  }  
-/*--------------------------------------------------------------------------------------------*/
+  }
+/*--------------------------------------------------------------------------------------------*/ 
+#button-dark-mode{
+    position: fixed;
+    padding-bottom: 90vh;
+    padding-left: 90vw;
+}
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background: grey;
+    float: right;
+    border-radius: 100px;
+    position: relative;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label {
+    background-color: var(--color-headings);
+}
+
+input:checked + label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 45px;
+}
+/*--------------------------------------------------------------------------------------------*/  
 *{
   margin: 0;
   padding: 0;
@@ -26,6 +75,14 @@
   list-style-type: none;
   color: #fff;
   text-decoration: none;
+}
+html{
+    /*--bg: #181815;
+    --bg-panel: #0f0f0a;*/
+    /*--color-headings: #fff;
+    --color-text: #fff;*/
+    --bg: #181815;  /*BG1*/
+    --bg-panel: #0f0f0a;  /*BG2*/
 }
 .verde{
     color: #00FF00;
@@ -37,14 +94,14 @@
     color: red;
 }
 body{
-    background: #181815;
+    background: var(--bg);
 }
 /*--------------------------------------------------------------------------------------------*/
 /*----------------------------------------------HEADER----------------------------------------------*/
 header{
     width: 100vw;
     height: 10vh;
-    background-color: #0f0f0a;
+    background-color: var(--bg-panel);
     position: fixed;
 }
 header .container{
@@ -112,7 +169,7 @@ header .container-lista li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0f0f0a;
+    background-color: var(--bg-panel);
 }
 #sobremim .sobremim-container{
     display: flex;
@@ -144,6 +201,7 @@ header .container-lista li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg);
 }
 #portifolio .portifolio-container{
     display: flex;
@@ -176,7 +234,7 @@ header .container-lista li a:hover{
 #skills{
     width: 99vw;
     height: 75%;
-    background-color: #0f0f0a; 
+    background-color: var(--bg-panel);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +259,7 @@ header .container-lista li a:hover{
 #skills .container .card{
     height:  300px;
     width: 200px;
-    background-color: #181815;
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,6 +281,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg);
 }
 footer i{
     font-size: 25px;
@@ -250,6 +309,15 @@ footer i:hover{
         flex-direction: column;
         padding: 0;
         margin: 0;
+    }
+    .container-icon i{
+        display: none;
+    }
+    .container-lista{
+        width: 100vw;
+    }
+    #button-dark-mode{
+        display: none;
     }
 }
 @media only screen and (max-width: 960px){
