@@ -22,12 +22,12 @@
 /*----------------------------------------------LOADING-BAR----------------------------------------------*/
 /*----------------------------------------------STANDARD-STYLE----------------------------------------------*/
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  color: var(--branco);
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: var(--branco);
+    text-decoration: none;
 }
 html{
     --bg: #181815;
