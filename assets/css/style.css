@@ -20,6 +20,37 @@
     height: 2px;
   }
 /*----------------------------------------------LOADING-BAR----------------------------------------------*/
+/*----------------------------------------------STANDARD-STYLE----------------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: var(--branco);
+  text-decoration: none;
+}
+html{
+    --bg: #181815;
+    --bg-panel: #0f0f0a;
+    --verde: #00FF00;
+    --laranja: #eb7a55;
+    --vermelho: red;
+    --branco: #fafafa;
+    --preto: black;
+}
+.verde{
+    color: var(--verde);
+}
+.laranja{
+    color: var(--laranja);
+}
+.vermelho{
+    color: var(--vermelho);
+}
+body{
+    background: var(--bg);
+}
+/*----------------------------------------------STANDARD-STYLE----------------------------------------------*/
 /*----------------------------------------------BUTTON-DARK-MODE----------------------------------------------*/
 #button-dark-mode{
     display: flex;
@@ -37,7 +68,7 @@ label {
     text-indent: -9999px;
     width: 52px;
     height: 27px;
-    background: #fafafa;
+    background: var(--branco);
     float: right;
     border-radius: 100px;
     position: relative;
@@ -49,7 +80,7 @@ label::after{
     left: 3px;
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: var(--preto);
     border-radius: 90px;
     transition: 0.3s;
 }
@@ -61,36 +92,6 @@ label:active:after {
     width: 45px;
 }
 /*----------------------------------------------BUTTON-DARK-MODE----------------------------------------------*/
-/*----------------------------------------------STYLE-PADRAO----------------------------------------------*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  color: #fff;
-  text-decoration: none;
-}
-html{
-    --bg: #181815;
-    --bg-panel: #0f0f0a;
-    --verde: #00FF00;
-    --laranja: #eb7a55/*orange*/;
-    --vermelho: red;
-    /*var(--verde);*/
-}
-.verde{
-    color: var(--verde);
-}
-.laranja{
-    color: var(--laranja);
-}
-.vermelho{
-    color: var(--vermelho);
-}
-body{
-    background: var(--bg);
-}
-/*----------------------------------------------STYLE-PADRAO----------------------------------------------*/
 /*----------------------------------------------HEADER----------------------------------------------*/
 header{
     width: 100vw;
@@ -123,9 +124,11 @@ header .container-lista ul {
 header .container-lista li a{
     padding: 0 2vw;
     position: relative;
+    color: var(--laranja);
 }
 header .container-lista li a:hover{
-    color: var(--laranja);
+    color: var(--branco);
+    border-bottom: 1px solid var(--laranja);
 }
 /*----------------------------------------------HEADER----------------------------------------------*/
 /*----------------------------------------------INICIO----------------------------------------------*/
@@ -276,8 +279,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg);
-    /*background: linear-gradient(#9B30F9, #84e);*/
+    /*background-color: var(--bg);*/
+    background: linear-gradient(#9B30F9, #84e);
 }
 footer i{
     font-size: 25px;
