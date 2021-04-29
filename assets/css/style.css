@@ -274,6 +274,10 @@ header .container-lista li a:hover{
     align-items: center;
     justify-content: center;
 }
+#skills .container .card:hover{
+    border:1px solid var(--laranja);
+    border-radius: 10px;
+}
 #skills .container .card i{
     color: var(--laranja);
     height: 80%;
