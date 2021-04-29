@@ -1,5 +1,4 @@
-/*Colocar o botao darkmode junto com um botar que mostra inicio sobremim etc. em 100px*/
-/*Ajustar no css gradient*/
+/*----------------------------------------------LOADING-BAR----------------------------------------------*/
 /* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
     -webkit-pointer-events: none;
@@ -20,29 +19,29 @@
     width: 100%;
     height: 2px;
   }
-/*--------------------------------------------------------------------------------------------*/ 
+/*----------------------------------------------LOADING-BAR----------------------------------------------*/
+/*----------------------------------------------BUTTON-DARK-MODE----------------------------------------------*/
 #button-dark-mode{
-    position: fixed;
-    padding-bottom: 90vh;
-    padding-left: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
 }
   input[type=checkbox]{
     height: 0;
     width: 0;
     visibility: hidden;
 }
-
 label {
     cursor: pointer;
     text-indent: -9999px;
     width: 52px;
     height: 27px;
-    background: grey;
+    background: #fafafa;
     float: right;
     border-radius: 100px;
     position: relative;
 }
-
 label::after{
     content: '';
     position: absolute;
@@ -50,24 +49,19 @@ label::after{
     left: 3px;
     width: 20px;
     height: 20px;
-    background-color: white;
+    background-color: black;
     border-radius: 90px;
     transition: 0.3s;
 }
-
-input:checked + label {
-    background-color: var(--color-headings);
-}
-
 input:checked + label::after {
     left: calc(100% - 5px);
     transform: translateX(-100%);
 }
-
 label:active:after {
     width: 45px;
 }
-/*--------------------------------------------------------------------------------------------*/  
+/*----------------------------------------------BUTTON-DARK-MODE----------------------------------------------*/
+/*----------------------------------------------STYLE-PADRAO----------------------------------------------*/
 *{
   margin: 0;
   padding: 0;
@@ -77,26 +71,26 @@ label:active:after {
   text-decoration: none;
 }
 html{
-    /*--bg: #181815;
-    --bg-panel: #0f0f0a;*/
-    /*--color-headings: #fff;
-    --color-text: #fff;*/
-    --bg: #181815;  /*BG1*/
-    --bg-panel: #0f0f0a;  /*BG2*/
+    --bg: #181815;
+    --bg-panel: #0f0f0a;
+    --verde: #00FF00;
+    --laranja: #eb7a55/*orange*/;
+    --vermelho: red;
+    /*var(--verde);*/
 }
 .verde{
-    color: #00FF00;
+    color: var(--verde);
 }
 .laranja{
-    color: orange;
+    color: var(--laranja);
 }
 .vermelho{
-    color: red;
+    color: var(--vermelho);
 }
 body{
     background: var(--bg);
 }
-/*--------------------------------------------------------------------------------------------*/
+/*----------------------------------------------STYLE-PADRAO----------------------------------------------*/
 /*----------------------------------------------HEADER----------------------------------------------*/
 header{
     width: 100vw;
@@ -128,9 +122,10 @@ header .container-lista ul {
 }
 header .container-lista li a{
     padding: 0 2vw;
+    position: relative;
 }
 header .container-lista li a:hover{
-    color: orange;
+    color: var(--laranja);
 }
 /*----------------------------------------------HEADER----------------------------------------------*/
 /*----------------------------------------------INICIO----------------------------------------------*/
@@ -179,7 +174,7 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container img{
     height: 20vh;
     border-radius: 100%;
-    border: 2px solid orange;
+    border: 2px solid var(--laranja);
     margin-right: 5vw;
 }
 #sobremim .sobremim-container p{
@@ -189,7 +184,7 @@ header .container-lista li a:hover{
 }
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
-    color: orange;
+    color: var(--laranja);
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -217,7 +212,7 @@ header .container-lista li a:hover{
 }
 #portifolio .portifolio-container a{
     border-radius: 100%;
-    border: 2px solid orange;
+    border: 2px solid var(--laranja);
     margin-right: 5vw;
 }
 #portifolio img{
@@ -225,7 +220,7 @@ header .container-lista li a:hover{
 }
 #portifolio .portifolio-container .coments h2{
     font-family: 'Fira Code', monospace;
-    color: orange;
+    color: var(--laranja);
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -244,7 +239,7 @@ header .container-lista li a:hover{
     margin: 3vh 0 0 0;
     font-family: 'Fira Code', monospace;
     font-size: 25px;
-    color: orange;
+    color: var(--laranja);
     text-align: center;
 }
 #skills .container{
@@ -266,7 +261,7 @@ header .container-lista li a:hover{
     justify-content: center;
 }
 #skills .container .card i{
-    color: orange;
+    color: var(--laranja);
     height: 80%;
     font-size: 50px;
 }
@@ -281,17 +276,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-color: var(--bg);*/
-    background: linear-gradient(#9B30F9, #84e);
+    background-color: var(--bg);
+    /*background: linear-gradient(#9B30F9, #84e);*/
 }
 footer i{
     font-size: 25px;
     margin: 10px 20px;
+    position: relative;
 }
 footer i:hover{
-    color: orange;
+    color: var(--laranja);
 }
 /*----------------------------------------------FOOTER----------------------------------------------*/
+/*----------------------------------------------MEDIA-QUERY----------------------------------------------*/
 @media only screen and (max-width: 1090px){
     #skills .container{
         grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -317,7 +314,7 @@ footer i:hover{
     .container-lista{
         width: 100vw;
     }
-    #button-dark-mode{
+    #button-dark-mode{  
         display: none;
     }
 }
@@ -482,3 +479,4 @@ footer i:hover{
         height: 60vh;
     }
 }
+/*----------------------------------------------MEDIA-QUERY----------------------------------------------*/
