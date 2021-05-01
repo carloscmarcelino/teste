@@ -4,4 +4,4 @@ Desenvolvendo meu site
 2.2% mobile
 
 ### anotações
-#### criar animação em skills, <br> criar animações nos textos
+#### criar animação em skills, <br> criar animações nos textos, <br> organizar os style css
