@@ -254,4 +254,7 @@ footer i{
 footer i:hover{
     color: var(--laranja);
 }
+#return i{
+    color: var(--laranja);
+}
 /*----------------------------------------------FOOTER----------------------------------------------*/

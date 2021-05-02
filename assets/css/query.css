@@ -191,6 +191,11 @@
         font-size: 0.6em; 
     }
 }
+@media only screen and (max-width: 330px){
+    footer i{
+        margin: 10px 10px;
+    }
+}
 @media only screen and (max-width: 311px){
     header .container-lista li a{
         font-size: 0.5em;
@@ -213,8 +218,19 @@
         height: 125px;
     }
 }
+@media only screen and (max-width: 230px){
+    footer i{
+        font-size: 20px;
+        margin: 10px 10px;
+    }
 @media only screen and (max-width: 225px){
     header .container-lista li a{
         font-size: 0.4em;
+    }
+}
+@media only screen and (max-width: 205px){
+    footer i{
+        font-size: 15px;
+        margin: 10px 5px;
     }
 }
