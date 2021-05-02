@@ -1,6 +1,6 @@
 Desenvolvendo meu site
 
-3,7% web <br>
-2.2% mobile
+1% web <br>
+0,5% mobile
 
-### anotações, <br> animar skills
+### anotações <br> animar skills

@@ -62,7 +62,7 @@ window.onscroll=function(){
 }
 /*SCROLLBAR*/
 
-/*RETURNANIMATION*/
+/*RETURN*/
 $('#return').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
@@ -73,4 +73,18 @@ $('#return').click(function(e){
             scrollTop: targetOffset - menuHeight
         }, 500);
 });
-/*RETURNANIMATION*/
+/*RETURN*/
+
+
+/*TEXT-EFFECT*/
+function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i)
+    });
+
+}
+const titulo = document.querySelector('#inicio h1');
+typeWrite(titulo)
+/*TEXT-EFFECT*/

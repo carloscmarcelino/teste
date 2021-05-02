@@ -1,14 +1,8 @@
 @media only screen and (max-width: 1000px){
     #inicio{
         text-align: center;
-        padding: 0;
-        margin: 0;
     }
     #inicio .inicio-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         padding: 0;
         margin: 0;
     }
@@ -18,24 +12,17 @@
     .container-lista{
         width: 100vw;
     }
+    header .container .container-icon{
+        display: none;
+    }
     #button-dark-mode{  
         display: none;
     }
-    #sobremim .sobremim-container .coments p{
-        margin: 0;
-        padding: 0;
-    }
 }
 @media only screen and (max-width: 960px){
-    #sobremim{
-        height: auto;
-        width: 100vw;
-    }
     #sobremim .sobremim-container{
         flex-direction: column;
         text-align: center;
-        height: 100%;
-        width: 100%;
         padding: 5% 0;
     }
     #sobremim .sobremim-container p{
@@ -46,8 +33,6 @@
         margin: 0;
     }
     #sobremim .sobremim-container .coments{         
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -57,12 +42,7 @@
         height: auto;
     }
     #sobremim .sobremim-container .coments h2{
-        width: 50%;
         padding-top: 2%;
-    }
-    #portifolio{
-        height: auto;
-        width: 100vw;
     }
     #portifolio .portifolio-container{
         flex-direction: column;
@@ -74,105 +54,27 @@
     #portifolio .portifolio-container p{
         text-align: left;
     }
-    #portifolio .portifolio-container img{
+    #portifolio .portifolio-container a{
         padding: 0;
         margin: 0;
     }
     #portifolio .portifolio-container .coments{
         width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     #portifolio .portifolio-container .coments p{
         width: 70%;
-        height: 100%;
+        height: auto;
     }
     #portifolio .portifolio-container .coments h2{
-        width: 50%;
-        padding-top: 5%;
+        padding-top: 2%;
     }
 }
 @media only screen and (max-width: 460px){
-    header .container{
-        flex-direction: column;
-        text-align: center;
-        width: 100vw;
-    }
-    header .container .container-icon{
-        display: none;
-    }
-    #inicio{
-        height: 90vh;
-        width: 100vw;
-    }
-    #inicio .inicio-container{
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        width: 90vw;
-    }
-    #sobremim{
-        height: auto;
-        width: 100vw;
-    }
-    #sobremim .sobremim-container{
-        flex-direction: column;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        padding-top: 5%;
-    }
-    #sobremim .sobremim-container img{
-        padding: 0;
-        margin: 0;
-    }
-    #sobremim .sobremim-container .coments{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     #sobremim .sobremim-container .coments p{
-        width: 70%;
-        height: auto;
         padding-top: 2%;
-    }
-    #sobremim .sobremim-container .coments h2{
-        width: 50%;
-    }
-
-    #portifolio{
-        height: auto;
-        width: 100vw;
-    }
-    #portifolio .portifolio-container{
-        flex-direction: column;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        padding-top: 5%;
-    }
-    #portifolio .portifolio-container img{
-        padding: 0;
-        margin: 0;
-    }
-    #portifolio .portifolio-container .coments{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #portifolio .portifolio-container .coments p{
-        width: 70%;
-        height: 100%;
-        padding-top: 5%;
-    }
-    #portifolio .portifolio-container .coments h2{
-        width: 50%;
     }
     #portifolio img{
         height: 125px;
@@ -181,7 +83,7 @@
         height: 150px;
     }
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 400px){
     header .container-lista li a{
         font-size: 0.8em;
     }
@@ -202,15 +104,6 @@
     }
 }
 @media only screen and (max-width: 285px){
-    #inicio{
-        height: 90vh;
-    }
-    #sobremim{
-        height: auto;
-    }
-    #portifolio{
-        height: auto;
-    }
     #portifolio img{
         height: 100px;
     }
@@ -218,7 +111,3 @@
         height: 125px;
     }
 }
-@media only screen and (max-width: 260px){
-    footer i{
-        margin: 10px 15px;
-    }
