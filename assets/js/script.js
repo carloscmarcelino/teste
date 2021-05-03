@@ -19,6 +19,7 @@ function debounce(func, wait, immediate) {
 };
 /*DEBOUNCE*/
 
+
 /*HEADERANIMATION*/
 $('header a').click(function(e){
     e.preventDefault();
@@ -31,6 +32,7 @@ $('header a').click(function(e){
         }, 500);
 });
 /*HEADERANIMATION*/
+
 
 /*ANIMATED*/
 const target = document.querySelectorAll('[data-anime]');
@@ -53,6 +55,7 @@ if(target.length){
 }
 /*ANIMATED*/
 
+
 /*SCROLLBAR*/
 let progress = document.getElementById('scrollbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
@@ -61,6 +64,7 @@ window.onscroll=function(){
     progress.style.height = progressHeight + "%";
 }
 /*SCROLLBAR*/
+
 
 /*RETURN*/
 $('#return').click(function(e){
@@ -88,3 +92,16 @@ function typeWrite(elemento){
 const titulo = document.querySelector('#inicio h1');
 typeWrite(titulo)
 /*TEXT-EFFECT*/
+
+
+/*SCROLLREVEAL*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal('.titulo-delay',{delay: 200})
+sr.reveal('.cards-interval',{interval: 400})
+/*SCROLLREVEAL*/
