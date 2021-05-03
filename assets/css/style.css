@@ -1,3 +1,4 @@
+/*------------------------------------------------------------------------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,10 @@ html{
     --preto: black;
     --roxo-gradient: linear-gradient(#9B30F9, #84e);
 }
+body{
+    background: var(--bg);
+}
+/*------------------------------------------------------------------------------------------------------------*/
 .verde{
     color: var(--verde);
 }
@@ -24,9 +29,7 @@ html{
 .vermelho{
     color: var(--vermelho);
 }
-body{
-    background: var(--bg);
-}
+/*------------------------------------------------------------------------------------------------------------*/
 header{
     width: 100vw;
     height: 10vh;
@@ -64,6 +67,7 @@ header .container-lista li a:hover{
     color: var(--branco);
     border-bottom: 1px solid var(--laranja);
 }
+/*------------------------------------------------------------------------------------------------------------*/
 #inicio{
     height: 90vh;
     width: 100vw;
@@ -104,6 +108,7 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 18px;
 }
+/*------------------------------------------------------------------------------------------------------------*/
 #sobremim{
     width: 100vw;
     height: auto;
@@ -160,6 +165,7 @@ header .container-lista li a:hover{
     margin: 0 5px;
     color: var(--branco);
 }
+/*------------------------------------------------------------------------------------------------------------*/
 #portifolio{
     width: 100vw;
     height: auto;
@@ -195,6 +201,7 @@ header .container-lista li a:hover{
     font-size: 25px;
     margin-bottom: 10px;
 }
+/*------------------------------------------------------------------------------------------------------------*/
 #projetos{
     width: 100vw;
     height: 75%;
@@ -243,6 +250,7 @@ header .container-lista li a:hover{
     font-size: 20px;
     color: var(--branco);
 }
+/*------------------------------------------------------------------------------------------------------------*/
 #skills{
     width: 100vw;
     height: 75%;
@@ -299,6 +307,7 @@ header .container-lista li a:hover{
     text-align: center;
     color: var(--branco);
 }
+/*------------------------------------------------------------------------------------------------------------*/
 footer{
     width: 100vw;
     height: 15vh;
@@ -319,3 +328,4 @@ footer i:hover{
 #return i{
     color: var(--laranja);
 }
+/*------------------------------------------------------------------------------------------------------------*/

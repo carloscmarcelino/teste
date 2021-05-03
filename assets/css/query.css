@@ -1,3 +1,4 @@
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 1000px){
     #inicio{
         text-align: center;
@@ -19,10 +20,11 @@
         display: none;
     }
 }
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px){
+
     #sobremim .sobremim-container{
         flex-direction: column;
-        text-align: center;
         padding: 5% 0;
     }
     #sobremim .sobremim-container p{
@@ -38,7 +40,7 @@
         align-items: center;
     }
     #sobremim .sobremim-container .coments p{
-        width: 70%;
+        width: 90vw;
         height: auto;
     }
     #sobremim .sobremim-container .coments h2{
@@ -65,13 +67,14 @@
         align-items: center;
     }
     #portifolio .portifolio-container .coments p{
-        width: 70%;
+        width: 90vw;
         height: auto;
     }
     #portifolio .portifolio-container .coments h2{
         padding-top: 2%;
     }
 }
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 460px){
     #sobremim .sobremim-container .coments p{
         padding-top: 2%;
@@ -83,26 +86,34 @@
         height: 150px;
     }
 }
-@media only screen and (max-width: 400px){
+/*------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 415px){
     header .container-lista li a{
         font-size: 0.8em;
     }
 }
-@media only screen and (max-width: 356px){
+/*------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 370px){
     header .container-lista li a{
         font-size: 0.6em; 
     }
 }
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 330px){
     footer i{
         margin: 10px 20px;
     }
 }
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 311px){
     header .container-lista li a{
         font-size: 0.5em;
     }
+    #projetos .container .card{
+        width: 200px;
+    }
 }
+/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 285px){
     #portifolio img{
         height: 100px;
@@ -111,3 +122,4 @@
         height: 125px;
     }
 }
+/*------------------------------------------------------------------------------------------------------------*/
