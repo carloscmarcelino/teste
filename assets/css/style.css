@@ -254,6 +254,7 @@ header .container-lista li a:hover{
     color: var(--branco);
     margin-bottom: 1vh;
     margin: 5px;
+    min-height: 80px;
 }
 #projetos-card .card ul{
     display: flex;
@@ -268,6 +269,7 @@ header .container-lista li a:hover{
     width: auto;
     height: 20px;
     text-align: center;
+    margin: 0 5px;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 #skills{
