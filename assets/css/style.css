@@ -133,8 +133,9 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
     line-height: 24px;
-    width: 25vw;
+    width: 30vw;
     color: var(--branco);
+    border: 1px solid red;
 }
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
@@ -185,8 +186,7 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
     line-height: 24px;
-    width: 25vw;
-    width: 25vw;
+    width: 30vw;
     color: var(--branco);
 }
 #portifolio .portifolio-container a{
@@ -214,7 +214,6 @@ header .container-lista li a:hover{
     justify-content: center;
 }
 #projetos h1{
-    margin-bottom: 1vh;
     font-family: 'Fira Code', monospace;
     font-size: 25px;
     color: var(--laranja);
@@ -238,7 +237,7 @@ header .container-lista li a:hover{
 #projetos .container .card{
     height:  auto;
     min-height: 150px;
-    width: 250px;
+    width: 300px;
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
@@ -255,9 +254,9 @@ header .container-lista li a:hover{
     line-height: 21px;
     text-align: center;
     color: var(--branco);
-    margin-bottom: 1vh;
-    margin: 5px;
     min-height: 80px;
+    display: flex;
+    align-items: center;
 }
 #projetos-card .card ul{
     display: flex;
@@ -272,7 +271,6 @@ header .container-lista li a:hover{
     width: auto;
     height: 20px;
     text-align: center;
-    margin: 0 5px;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 #skills{
