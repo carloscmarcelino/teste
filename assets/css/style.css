@@ -270,6 +270,7 @@ header .container-lista li a:hover{
     width: auto;
     height: 20px;
     text-align: center;
+    margin: 0 5px;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 #skills{
