@@ -1,4 +1,3 @@
-/*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 1000px){
     #inicio{
         text-align: center;
@@ -7,17 +6,8 @@
         padding: 0;
         margin: 0;
     }
-    .container-icon i{
-        display: none;
-    }
     .container-lista{
         width: 100vw;
-    }
-    header .container .container-icon{
-        display: none;
-    }
-    #button-dark-mode{  
-        display: none;
     }
 }
 /*------------------------------------------------------------------------------------------------------------*/
