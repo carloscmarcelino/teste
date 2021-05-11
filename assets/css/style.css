@@ -11,6 +11,7 @@ html{
     --laranja: #eb7a55;
     --branco: #fafafa;
     --roxo-gradient: linear-gradient(#9B30F9, #84e);
+    --verde: #39ff14;
 }
 body{
     background: var(--bg);
@@ -167,18 +168,23 @@ header .container-lista li a:hover{
     color: var(--branco);
 }
 #portifolio .portifolio-container a{
-    border-radius: 100%;
-    border: 2px solid var(--laranja);
     margin-right: 5vw;
+    border-radius: 100%;
 }
 #portifolio img{
     height: 20vh;
+    border: 2px solid var(--laranja);
+    border-radius: 100%;
 }
 #portifolio .portifolio-container .coments h2{
     font-family: 'Fira Code', monospace;
     color: var(--laranja);
     font-size: 25px;
     margin-bottom: 10px;
+}
+#link-git a{
+    color: var(--verde);
+    font-size: 16px;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 #projetos{
