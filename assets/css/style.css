@@ -277,6 +277,7 @@ header .container-lista li a:hover{
     color: var(--branco);
     border-radius: 5px;
     font-size: 13px;
+    min-width: 80px;
     width: auto;
     height: 20px;
     text-align: center;
