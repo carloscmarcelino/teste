@@ -37,7 +37,7 @@ header .container-lista ul {
 }
 header .container-lista li a{
     padding: 0 2vw;
-    color: var(--laranja);
+    color: var(--branco);
 }
 header .container-lista li a:hover{
     border-bottom: 1px solid var(--branco);
@@ -99,7 +99,7 @@ header .container-lista li a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 40px 0;
+    margin: 80px 0;
 }
 #sobremim .sobremim-container img{
     height: 20vh;
@@ -110,7 +110,7 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container p{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(16px*1.5);
     width: 30vw;
     color: var(--branco);
 }
@@ -172,9 +172,11 @@ header .container-lista li a:hover{
 #portifolio .portifolio-container p{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(16px*1.5);
     width: 30vw;
     color: var(--branco);
+    margin: 10px 0;
+    
 }
 #portifolio .portifolio-container a{
     margin-right: 5vw;
@@ -189,7 +191,6 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     color: var(--laranja);
     font-size: 25px;
-    margin-bottom: 10px;
 }
 #link-git a{
     color: var(--verde);
@@ -204,6 +205,7 @@ header .container-lista li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 #projetos h1{
     font-family: 'Fira Code', monospace;
@@ -261,7 +263,7 @@ header .container-lista li a:hover{
 }
 #projetos-card .card p{
     font-size: 14px;
-    line-height: 21px;
+    line-height: calc(14px*1.5);
     text-align: center;
     color: var(--branco);
     min-height: 80px;
