@@ -7,8 +7,8 @@
     text-decoration: none;
 }
 html{
-    --bg: #181815;
-    --bg-panel: #0f0f0a;
+    --bg: #282A2D;
+    --bg-panel: #1B1D20;
     --laranja: #eb7a55;
     --branco: #fafafa;
     --roxo-gradient: linear-gradient(#9B30F9, #84e);
@@ -37,11 +37,10 @@ header .container-lista ul {
 }
 header .container-lista li a{
     padding: 0 2vw;
-    position: relative;
     color: var(--laranja);
 }
 header .container-lista li a:hover{
-    border-bottom: 1px solid var(--laranja);
+    border-bottom: 1px solid var(--branco);
 }
 /*-Inicio-*/
 #inicio{
