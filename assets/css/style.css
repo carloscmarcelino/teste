@@ -105,7 +105,7 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container img{
     height: 20vh;
     border-radius: 100%;
-    border: 2px solid var(--laranja);
+    /*border: 2px solid var(--laranja);*/
     margin-right: 5vw;
 }
 #sobremim .sobremim-container p{
@@ -124,6 +124,14 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container .coments a{
     display: block;
     padding: 20px 0 0 0;
+}
+#sobremim .sobremim-container .coments a button{
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
+}
+#sobremim .sobremim-container .coments a button:hover{
+    animation: scale 0.1s linear;
+    animation-fill-mode: forwards;
 }
 #sobremim .sobremim-container .coments button{
     background: var(--roxo-gradient);
@@ -173,7 +181,7 @@ header .container-lista li a:hover{
 }
 #portifolio img{
     height: 20vh;
-    border: 2px solid var(--laranja);
+    /*border: 2px solid var(--laranja);*/
     border-radius: 100%;
 }
 #portifolio .portifolio-container .coments h2{
@@ -227,10 +235,28 @@ header .container-lista li a:hover{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
 }
 #projetos .container .card:hover{
-    border:1px solid var(--laranja);
-    border-radius: 10px;
+    animation: scale 0.1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes scaledown{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
 }
 #projetos-card .card p{
     font-size: 14px;
@@ -291,10 +317,12 @@ header .container-lista li a:hover{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
 }
 #skills .container .card:hover{
-    border:1px solid var(--laranja);
-    border-radius: 10px;
+    animation: scale 0.1s linear;
+    animation-fill-mode: forwards;
 }
 .htmlcss{
     height: 80%;
