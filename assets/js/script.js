@@ -28,7 +28,8 @@ function getScrollTopByHref(element){
 }
 function scrollToIdOnClick(event){
     event.preventDefault()
-    const to = getScrollTopByHref(event.target) - 95
+    menuHeight = $('header').innerHeight()
+    const to = getScrollTopByHref(event.target) - menuHeight
     scrollToPosition(to)
 }
 function scrollToPosition(to){
