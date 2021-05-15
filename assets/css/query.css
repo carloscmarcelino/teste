@@ -65,6 +65,11 @@
         padding-top: 2%;
     }
 }
+@media only screen and (max-width: 490px){
+    header .container-lista li a{
+        font-size: 0.8em;
+    }
+}
 /*-460px-*/
 @media only screen and (max-width: 460px){
     #sobremim .sobremim-container .coments p{
@@ -78,15 +83,15 @@
     }
 }
 /*-415px-*/
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 435px){
     header .container-lista li a{
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 }
 /*-370px-*/
 @media only screen and (max-width: 370px){
     header .container-lista li a{
-        font-size: 0.6em; 
+        font-size: 0.5em; 
     }
 }
 /*-330px-*/
