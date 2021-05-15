@@ -17,20 +17,26 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
-
-
-/*Header-animation*/
-$('header a').click(function(e){
-    e.preventDefault();
-    var id = $(this).attr('href'),
-        menuHeight = $('header').innerHeight(),
-        targetOffset = $(id).offset().top;
-        $('html,body').animate({
-            scrollTop: targetOffset
-        }, 500);
-});
-
-
+/*Scroll-top*/
+const menuItens = document.querySelectorAll('header a[href^="#"]')
+menuItens.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick)
+})
+function getScrollTopByHref(element){
+    const id = element.getAttribute('href')
+    return document.querySelector(id).offsetTop
+}
+function scrollToIdOnClick(event){
+    event.preventDefault()
+    const to = getScrollTopByHref(event.target) - 95
+    scrollToPosition(to)
+}
+function scrollToPosition(to){
+    window.scroll({
+        top: to,
+        behavior: "smooth",
+    })
+}
 /*Scroll-bar*/
 let progress = document.getElementById('scrollbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
@@ -38,22 +44,6 @@ window.onscroll=function(){
     let progressHeight = ((window.pageYOffset/totalHeight)*100);
     progress.style.height = progressHeight + "%";
 }
-
-
-
-/*Return*/
-$('#return').click(function(e){
-    e.preventDefault();
-    var id = $(this).attr('href'),
-        menuHeight = $('header').innerHeight(),
-        targetOffset = $(id).offset().top;
-
-        $('html,body').animate({
-            scrollTop: targetOffset - menuHeight
-        }, 500);
-});
-
-
 
 /*Text-effect*/
 function typeWrite(elemento){
