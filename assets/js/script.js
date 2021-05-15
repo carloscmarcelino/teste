@@ -86,3 +86,12 @@ const srNR = ScrollReveal({
     reset: false
 });
 sr.reveal('.cards-intervalNR',{interval: 400})
+/*Header-animation*/
+function headerAnimation(){
+window.addEventListener('scroll', function(){
+    const header = document.querySelector('header')
+    header.classList.add('hd-Animated', window.scroll > 0)
+    /*Não sei por que o toggle não está funcionando, então vai o .add mesmo*/
+})
+}
+headerAnimation();

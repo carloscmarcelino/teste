@@ -21,9 +21,13 @@ body{
 header{
     width: 100vw;
     height: 10vh;
-    background-color: var(--bg-panel);
+    background-color: var(--bg);
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
+    transition: .6s;
+}
+header.hd-Animated{
+    background: var(--bg-panel);
 }
 header .container{
     display: flex;

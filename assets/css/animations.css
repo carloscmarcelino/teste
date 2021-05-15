@@ -25,9 +25,10 @@
     right: 0;
     width: 5px;
     height: 100%;
-    background: var(--laranja)
-}
-::-webkit-scrollbar{
+    background: var(--laranja);
+    z-index: 1001;
+  }
+  ::-webkit-scrollbar{
     width: 0;
 }
 /*-End-*/
