@@ -228,7 +228,7 @@ header .container-lista li a:hover{
     justify-content: center;
     display: grid;
     grid-gap: 30px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 #projetos .container .card{
     height:  auto;
