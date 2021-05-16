@@ -37,42 +37,15 @@
     #sobremim .sobremim-container .coments h2{
         padding-top: 2%;
     }
-    #portifolio .portifolio-container{
-        flex-direction: column;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        padding: 5% 0;
-    }
-    #portifolio .portifolio-container p{
-        text-align: left;
-    }
-    #portifolio .portifolio-container a{
-        padding: 0;
-        margin: 0;
-    }
-    #portifolio .portifolio-container .coments{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #portifolio .portifolio-container .coments p{
-        width: 90vw;
-        height: auto;
-    }
-    #portifolio .portifolio-container .coments h2{
-        padding-top: 2%;
-    }
 }
-/*630px*/
-@media only screen and (max-width: 630px){
+/*475px*/
+@media only screen and (max-width: 470px){
     header .container-lista li a{
         font-size: 0.8em;
     }
 }
-/*560px*/
-@media only screen and (max-width: 560px){
+/*425px*/
+@media only screen and (max-width: 425px){
     header .container-lista li a{
         font-size: 0.6em;
     }
@@ -82,29 +55,20 @@
     #sobremim .sobremim-container .coments p{
         padding-top: 2%;
     }
-    #portifolio img{
-        height: 125px;
-    }
     #sobremim .sobremim-container img{
         height: 150px;
-    }
-}
-/*420px*/
-@media only screen and (max-width: 420px){
-    header .container-lista li a{
-        font-size: 0.5em;
-    }
-}
-/*350px*/
-@media only screen and (max-width: 350px){
-    header .container-lista li a{
-        font-size: 0.4em;
     }
 }
 /*330px*/
 @media only screen and (max-width: 330px){
     footer i{
         margin: 10px 20px;
+    }
+}
+/*320px*/
+@media only screen and (max-width: 320px){
+    header .container-lista li a{
+        font-size: 0.5em;
     }
 }
 /*311px*/
@@ -118,13 +82,13 @@
 }
 /*285px*/
 @media only screen and (max-width: 285px){
-    header .container-lista li a{
-        font-size: 0.3em;
-    }
-    #portifolio img{
-        height: 100px;
-    }
     #sobremim .sobremim-container img{
         height: 125px;
+    }
+}
+/*265px*/
+@media only screen and (max-width: 265px){
+    header .container-lista li a{
+        font-size: 0.4em;
     }
 }

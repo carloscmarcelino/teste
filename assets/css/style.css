@@ -159,51 +159,11 @@ header .container-lista li a:hover{
     margin: 0 5px;
     color: var(--branco);
 }
-/*-Portfolio-*/
-#portifolio{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bg);
-}
-#portifolio .portifolio-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
-    margin: 100px 0;
-}
-#portifolio .portifolio-container p{
-    font-family: 'Fira Code', monospace;
-    font-size: 16px;
-    line-height: calc(16px*1.5);
-    width: 30vw;
-    color: var(--branco);
-    margin: 10px 0; 
-}
-#portifolio .portifolio-container a{
-    margin-right: 5vw;
-    border-radius: 100%;
-}
-#portifolio img{
-    height: 20vh;
-    border-radius: 100%;
-}
-#portifolio .portifolio-container .coments h2{
-    font-family: 'Fira Code', monospace;
-    color: var(--laranja);
-    font-size: 25px;
-}
-#link-git a{
-    color: var(--verde);
-    font-size: 16px;
-}
 /*-Projetos-*/
 #projetos{
     width: 100vw;
     height: 75%;
-    background-color: var(--bg-panel);
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,7 +197,7 @@ header .container-lista li a:hover{
     height:  auto;
     min-height: 300px;
     width: 300px;
-    background-color: var(--bg);
+    background-color: var(--bg-panel);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,7 +256,7 @@ header .container-lista li a:hover{
 #skills{
     width: 100vw;
     height: 75%;
-    background-color: var(--bg);
+    background-color: var(--bg-panel);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,7 +281,7 @@ header .container-lista li a:hover{
 #skills .container .card{
     height:  250px;
     width: 150px;
-    background-color: var(--bg-panel);
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,7 +316,7 @@ header .container-lista li a:hover{
     min-height: 50vh;
     height: auto;
     width: 100vw;
-    background: var(--bg-panel);
+    background: var(--bg);
     display: flex;
     align-items: center;
     justify-content: center;
