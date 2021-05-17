@@ -349,6 +349,7 @@ header .container-lista li a:hover{
     font-size: 14px;
     font-family: 'Fira Code', monospace;
     line-height: calc(14px*2);
+    letter-spacing: 1px;
 }
 #contato .container p{
     height: auto;
