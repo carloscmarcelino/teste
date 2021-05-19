@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    text-decoration: none;
+    list-style-type: none;
+}
+:root{
+    --bg2: #1b1d20;
+    --bg3: #282A2D;
+    --txt: #fff;
+    --txt2: #eb7a55;
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 10vh;
+    background: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .container img{
+    height: 75px;
+    width: 75px;
+}
+header ul{
+    display: flex;
+}
+header ul li a{
+    padding: 0 50px;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: var(--txt2);
+}
+header ul li a:hover{ 
+    border-bottom: 1px solid var(--txt2);
+}
+/*Home*/
+#home{
+    height: 900px;
+    width: 100%;
+    background: #000;
+}
+#home .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home .container img{
+    margin-top: 450px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    height: 900px;
+    width: 1000px;
+    box-shadow: 0 0 1em #000;
+}
+#home .container img.ativo{
+    opacity: 1;
+}
+/*Sobre*/
+#sobre{
+    padding: 50px 0;
+    background: var(--bg2);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sobre h2{
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--txt2);
+}
+#sobre .container{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg3);
+}
+#sobre .container img{
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 10px #000;
+    box-shadow: 0 0 1em var(--txt2);
+}
+#sobre .sobre-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sobre .sobre-texto p{
+    height: auto;
+    width: 90%;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 50px;
+    color: var(--txt);
+}
+/*Trabalhos*/
+#trabalhos{
+    background: var(--bg3);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+#trabalhos .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+#trabalhos .container h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--txt2);
+}
+#trabalhos .container ul{
+    margin: 20px 0;
+}
+#trabalhos .container li{
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: calc(14px*2);
+    text-align: center;
+    color: var(--txt);
+}
+/*Img*/
+#imgs{
+    padding: 50px 0;
+    background: var(--bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#imgs .text{
+    background: var(--bg3);
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#imgs .text h2{
+    color: var(--txt2);
+    margin-top: 50px;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+}
+#imgs .container{
+    padding: 50px;
+    width: 90%;
+    background: var(--bg3);
+    justify-items: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+}
+#imgs .container .card{
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
+}
+#imgs .container .card:hover{
+    animation: scale .1s linear;
+    animation-fill-mode: forwards;
+}
+#imgs .container .card img{
+    width: 400px;
+    height: 400px;
+}
+#imgs .container .card img:hover{
+    box-shadow: 0 0 0.3em var(--txt2);
+    cursor: pointer;
+}
+@keyframes scaledown{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+/*Contato*/
+#contato{
+    background: var(--bg3);
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+#contato .orcamento{
+    width: 100%;
+    height: auto;
+    background: var(--bg3);
+    padding: 20px 0;
+}
+#contato .orcamento .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contato .orcamento .container h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--txt2);
+}
+#contato .orcamento .container p{
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--txt);
+}
+#contato .contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg3);
+    padding: 50px 0;
+}
+#contato .contato ul{
+    
+}
+#contato .contato ul h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--txt2);
+    text-align: center;
+}
+#contato .contato ul li{
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--txt);
+    text-align: center;
+}
+#contato .contato ul li a i{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: var(--txt);
+}
+#contato .contato ul li a i:hover{
+    color: var(--txt2);
+}
+#contato .contato ul.border-right{
+    border-right: 1px solid var(--txt2);
+    padding: 0 150px;
+    
+}
+#contato .contato ul.border-left{
+    border-left: 1px solid var(--txt2);
+    padding: 0 150px;
+}
+footer{
+    width: 100%;    
+    background: var(--bg2);
+    height: 5vh;
+}
+footer .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .container a{
+    color: var(--txt2);
+    font-size: 14px;
+    margin-right: 20px;
+}
