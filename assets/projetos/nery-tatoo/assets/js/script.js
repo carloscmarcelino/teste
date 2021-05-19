@@ -25,7 +25,6 @@ const srl = ScrollReveal({
     origin: 'left',
     distance: '50px',
     duration: 2000,
-    reset: true
+    reset: false
 });
-srl.reveal('.titulo-delayLeft',{delay: 200})
-srl.reveal('.cards-intervalLeft',{interval: 400})
+srl.reveal('.delayLeft',{interval: 100})
