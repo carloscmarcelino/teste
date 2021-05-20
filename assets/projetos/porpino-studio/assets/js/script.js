@@ -26,3 +26,12 @@ btnMobile.addEventListener('click', function(){
     const menu = document.querySelector('.menu')
     menu.classList.toggle('active')
 })
+
+/*Header-animation*/
+function headerAnimation(){
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('header')
+        header.classList.add('hd-Animated', window.scroll > 0)
+    })
+    }
+    headerAnimation();
