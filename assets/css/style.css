@@ -12,7 +12,6 @@
     --laranja: #eb7a55;
     --branco: #fafafa;
     --roxo-gradient: linear-gradient(#9B30F9, #84e);
-    --verde: #39ff14;
 }
 body{
     background: var(--bg);
@@ -31,6 +30,7 @@ header{
 }
 header.hd-Animated{
     background: var(--bg-panel);
+    height: 6vh;
 }
 header .container{
     width: 100%;
