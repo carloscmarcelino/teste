@@ -39,7 +39,7 @@
     }
 }
 /*475px*/
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 530px){
     header ul li a{
         font-size: 0.8em;
     }

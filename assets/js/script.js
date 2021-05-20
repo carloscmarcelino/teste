@@ -80,7 +80,7 @@ srl.reveal('.titulo-delayLeft',{delay: 200})
 srl.reveal('.cards-intervalLeft',{interval: 400})
 /*No-reset*/
 const srNR = ScrollReveal({
-    origin: 'left',
+    origin: 'top',
     distance: '50px',
     duration: 2000,
     reset: false
