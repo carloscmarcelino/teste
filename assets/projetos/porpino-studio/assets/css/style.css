@@ -131,6 +131,7 @@ main .sobre{
 #projetos .container .projetos-card img{
     width: 500px;
     height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
 }
 #projetos .container .projetos-card:hover{
     animation: scale .1s linear;
