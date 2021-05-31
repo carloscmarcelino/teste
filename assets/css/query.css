@@ -38,16 +38,16 @@
         padding-top: 2%;
     }
 }
-/*475px*/
+/*530px*/
 @media only screen and (max-width: 530px){
     header ul li a{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 }
 /*425px*/
 @media only screen and (max-width: 360px){
     header ul li a{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 }
 /*-460px-*/
@@ -65,10 +65,10 @@
         margin: 10px 20px;
     }
 }
-/*320px*/
-@media only screen and (max-width: 320px){
-    header .container-lista li a{
-        font-size: 0.5em;
+/*325px*/
+@media only screen and (max-width: 325px){
+    header ul li a{
+        font-size: 0.6em;
     }
 }
 /*311px*/

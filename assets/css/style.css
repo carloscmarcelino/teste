@@ -44,8 +44,10 @@ header ul{
     justify-content: center;
     height: 10vh;
 }
+header li + li{
+    padding-left: 4vw;
+}
 header ul li a{
-    padding: 0 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
