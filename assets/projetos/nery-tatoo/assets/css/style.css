@@ -1,0 +1,130 @@
+/*-Default-*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    */
+}
+:root{
+}
+body{
+    background-color: #fff;
+}
+/*-Header-*/
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1a1a1a;
+}
+header .logo{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    color: #fff;
+}
+header ul{
+    display: flex;
+}
+header li + li{
+    padding-left: 75px;
+}
+header a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*Sobre*/
+#sobre{
+    background: #000;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre .container{
+
+}
+#sobre img{
+    height: 89.5vh;
+}
+/*abbout*/
+#abbout{
+    height: 60vh;
+    margin: 50px 0;
+}
+#abbout .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 50px 0;
+}
+#abbout .img{
+    height: 500px;
+    width: 500px;
+    background: #c4c4c4;
+}
+#abbout .text{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Trabalhos*/
+#trabalhos{
+    height: 60vh;
+    margin: 50px 0;
+}
+#trabalhos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 50px 0;
+}
+#trabalhos h2{
+
+}
+#trabalhos .img{
+    height: 500px;
+    width: 500px;
+    background: #c4c4c4;
+}
+/*Contato*/
+#contato{
+    height: 35vh;
+    margin: 50px 0;
+}
+#contato .container{
+    background: #F3F3F3;
+    padding: 50px 0;
+}
+#contato .orcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+#contato .li{
+    margin: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
