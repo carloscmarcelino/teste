@@ -1,0 +1,13 @@
+#sobre{
+    background: #000;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre .container{
+
+}
+#sobre img{
+    height: 89.5vh;
+}

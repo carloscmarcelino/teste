@@ -1,0 +1,13 @@
+footer{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+footer p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}

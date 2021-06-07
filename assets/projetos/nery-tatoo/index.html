@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!--Descrição-->
     <title>Nery Tatoo</title>
+    <link rel="shortcut icon" href="">
 	<meta property="og:title" content="Nery Tatoo"/>
     <meta name="description" content="">
 	<meta property="og:type" content="website"/>
@@ -14,28 +15,30 @@
 	<meta property="og:url" content=""/>
     <!--Estilos-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Roboto-->
+    <!--Montserrat-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Nery Tatoo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--Rubik-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
+    <div id="scrollbar"></div>
     <header id="header"> <!--Header-->
-        <div class="logo">
-            <h2>Logo</h2>
-        </div>
         <ul>
             <li>
-                <a href="">Home</a>
+                <a href="#sobre">Home</a>
             </li>
             <li>
-                <a href="">Sobre</a>
+                <a href="#abbout">Sobre</a>
             </li>
             <li>
-                <a href="">Trabalhos</a>
+                <a href="#trabalhos">Trabalhos</a>
             </li>
             <li>
-                <a href="">Contatos</a>
+                <a href="#contato">Contatos</a>
             </li>
         </ul>
     </header> <!--Header-->
@@ -48,15 +51,16 @@
         <div id="abbout"><!--Abbout-->
             <div class="container">
                 <div class="img">
-
+                    <img src="assets/img/abbout.jpg" alt="">
                 </div>
                 <div class="text">
                     <h2>Quem sou</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, commodi delectus placeat doloribus laudantium iure quo rerum vel illum magni porro est itaque quia asperiores necessitatibus tempora officiis consequatur dolorum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus inventore deserunt est dicta placeat odit assumenda quod corporis quis nesciunt, consectetur nulla! Quod doloremque, nulla autem consequuntur atque eveniet! Beatae?</p>
                     <ul>
-                        <li>Realismo</li>
-                        <li>Custom Lettering</li>
-                        <li>Blackwork</li>
+                        <li> <span class="circle"></span> Realismo</li>
+                        <li> <span class="circle"></span> Custom Lettering</li>
+                        <li> <span class="circle"></span> Blackwork</li>
                     </ul>
                 </div>
             </div>
@@ -64,8 +68,22 @@
         <div id="trabalhos"> <!--Trabalhos-->
             <div class="container">
                 <h2>Trabalhos</h2>
-                <div class="img">
-
+                <div class="slide-wrapper">
+                    <ul class="slide">
+                        <li><img src="assets/img/tt1.jpg" alt=""></li>
+                        <li><img src="assets/img/tt2.jpg" alt=""></li>
+                        <li><img src="assets/img/tt3.jpg" alt=""></li>
+                        <li><img src="assets/img/tt4.jpg" alt=""></li>
+                        <li><img src="assets/img/tt5.jpg" alt=""></li>
+                        <li><img src="assets/img/tt6.jpg" alt=""></li>
+                        <li><img src="assets/img/tt7.jpg" alt=""></li>
+                        <li><img src="assets/img/tt8.jpg" alt=""></li>
+                        <li><img src="assets/img/tt9.jpg" alt=""></li>
+                        <li><img src="assets/img/tt10.jpg" alt=""></li>
+                        <li><img src="assets/img/tt11.jpg" alt=""></li>
+                        <li><img src="assets/img/tt12.jpg" alt=""></li>
+                        <li><img src="assets/img/tt13.jpg" alt=""></li>
+                    </ul>
                 </div>
             </div>
         </div> <!--Trabalhos-->
@@ -79,8 +97,16 @@
                     <div class="li-container">
                         <h2>Redes sociais</h2>
                         <ul>
-                            <li>insta</li>
-                            <li>zap</li>
+                            <li>
+                                <a href="https://www.instagram.com/nery.ttt/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://web.whatsapp.com/send?phone=5581979007076" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="li-container">
@@ -91,19 +117,17 @@
                         </ul>
                     </div>
                 </div>
-
-            
-
-
-
             </div>
         </div> <!--Contato-->
-
-
-        <footer></footer>
-
+        <footer>
+            <p>Todos os direitos reservados</p>
+        </footer>
     </main>
-
-    <script src="assets/js/script.js"></script>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Script-->
+    <script type="module" src="assets/js/script.js"></script>
+    <!--LoadingBar-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 </body>
 </html>
