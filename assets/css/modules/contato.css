@@ -1,0 +1,57 @@
+#contato{
+    min-height: 50vh;
+    height: auto;
+    width: 100vw;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contato .container{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contato span{
+    width: 150px;
+    border-bottom: 0.1em solid var(--branco);
+    margin: 30px 0;
+}
+#contato .container h2{
+    color: var(--branco);
+    font-size: 18px;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+#contato ul{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+#contato li{
+    color: var(--branco);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Fira Code', monospace;
+    line-height: calc(14px*2);
+    letter-spacing: 1px;
+}
+#contato .container p{
+    height: auto;
+    width: 90vw;
+    text-align: center;
+    color: var(--branco);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    margin: 30px 0;
+}
+#contato p.p-italic{
+    font-family: 'Times New Roman';
+    font-weight: 300;
+    font-style: italic; 
+    letter-spacing: 2px;
+    font-size: 14px;
+}

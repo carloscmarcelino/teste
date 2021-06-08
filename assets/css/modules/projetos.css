@@ -1,0 +1,90 @@
+#projetos{
+    width: 100vw;
+    height: 75%;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;  
+}
+#projetos h1{
+    font-family: 'Fira Code', monospace;
+    font-size: 25px;
+    color: var(--laranja);
+    text-align: center;
+}
+#projetos h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    color: var(--laranja);
+    text-align: center;
+}
+#projetos .container{
+    width: 90vw;
+    padding: 30px 0;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 30px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+#projetos .container .card{
+    height:  auto;
+    min-height: 300px;
+    width: 300px;
+    background-color: var(--bg-panel);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
+}
+#projetos .container .card:hover{
+    animation: scale .1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes scaledown{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+#projetos-card .card p{
+    font-size: 14px;
+    line-height: calc(14px*1.5);
+    text-align: center;
+    color: var(--branco);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+#projetos-card .card ul{
+    display: flex;
+    flex-direction: row;
+}
+#projetos-card .card ul li{
+    border: 1px solid #9B30F9;
+    background: var(--roxo-gradient);
+    color: var(--branco);
+    border-radius: 5px;
+    font-size: 12px;
+    min-width: 80px;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    margin: 0 5px;
+}
