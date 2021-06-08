@@ -15,12 +15,6 @@
         flex-direction: column;
     }
 }
-/*775*/
-@media only screen and (max-width: 775px){
-    #contato .map img{ 
-        width: 95vw;
-    }
-}
 /*550*/
 @media only screen and (max-width: 550px){
     header li + li{
@@ -59,7 +53,6 @@
         width: 300px;
     }
     #abbout .text p{
-        border: 1px solid red;
         width: 90vw;
     }
 }
