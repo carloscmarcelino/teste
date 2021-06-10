@@ -3,7 +3,9 @@
 }
 #contato .container{
     background: #F3F3F3;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
+    /*or*/
+    /*background: #F8F9FA;*/
 }
 #contato .orcamento{
     display: flex;
@@ -62,5 +64,4 @@
 #contato .map iframe{
     border: 3px solid rgba(0,0,0,.5);
     padding: 5px;
-    background: rgba(0,0,0,.1);
 }

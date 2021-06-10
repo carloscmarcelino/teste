@@ -1,6 +1,8 @@
 #trabalhos .container{
     padding: 50px 0;
     background: #F3F3F3;
+    /*or*/
+    /*background: #F8F9FA;*/
 }
 #trabalhos .container h2{
     text-align: center;
