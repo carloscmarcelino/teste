@@ -8,7 +8,3 @@ slide.activePrevSlide();
 /*Header-animation*/
 import Header from './modules/header.js'
 Header()
-
-/*ScrollReveal*/
-import scrollReveal from './modules/scrollReveal.js'
-scrollReveal()
