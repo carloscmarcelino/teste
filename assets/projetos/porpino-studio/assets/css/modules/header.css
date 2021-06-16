@@ -1,43 +1,51 @@
 header{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #f2f2f2;
     background: var(--cinza);
     position: fixed;
     z-index: 999;
     transition: .6s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 header.hd-Animated{
     height: 6vh;
 }
 header h2{
-    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cinza-escuro);
     letter-spacing: 5px;
-    font-size: 24px;
-    color: var(--cinza-escuro);
-}
-header .menu{
-    width: 100%;
-    height: 100%;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-header .menu ul{
-    display: flex;
-}
-header .menu ul li a{
     font-family: 'Josefin Sans', sans-serif;
-    padding: 0 40px;
     font-size: 24px;
-    letter-spacing: 2px;
-    color: var(--cinza-escuro);
 }
-header .menu ul li:hover{
-    border-bottom: 1px solid var(--cinza-escuro);
+header ul{
+    display: flex;
+}
+header li + li{
+    padding-left: 75px;
+}
+header a{
+    color: var(--cinza-escuro);
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+header a::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background: var(--cinza-escuro);
+    left: 0;
+    bottom: 0;
+    transform: scale(0,1);
+    transform-origin: 0% 100%;
+    transition: transform .3s ease;
+}
+header a:hover::after{
+    transform: scale(1,1);
 }
 #btn-mobile{
     display: none;

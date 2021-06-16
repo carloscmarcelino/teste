@@ -10,9 +10,9 @@
         display: block;
         position: absolute;
         width: 100%;
-        top: 60px;
+        top: 45px;
         right: 0px;
-        background: #1a1a1a;
+        background: var(--cinza);
         transition: .6s;
         z-index: 1000;
         height: 0px;
@@ -48,7 +48,7 @@
         display: block;
         width: 20px;
         border-top: 2px solid;
-        color: #fff;
+        color: #4d4d4d;
     }
     #hamburger::after,
     #hamburger::before{
