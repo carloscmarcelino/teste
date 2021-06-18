@@ -1,5 +1,4 @@
 #contato{
-    min-height: 50vh;
     height: auto;
     width: 100vw;
     background: var(--bg);
@@ -13,18 +12,22 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 50px 0;
 }
-#contato span{
-    width: 150px;
-    border-bottom: 0.1em solid var(--branco);
-    margin: 30px 0;
+#contato .container .t1{
+    width: auto;
+    border-top: 1px solid rgba(255,255,255,.5);
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    margin: 50px;
 }
-#contato .container h2{
+#contato .container .t1 h2{
     color: var(--branco);
     font-size: 18px;
     font-family: 'Fira Code', monospace;
     letter-spacing: 1px;
     font-weight: normal;
+    margin-top: 30px;
+    text-align: center;
 }
 #contato ul{
     margin: 30px 0;
@@ -39,19 +42,24 @@
     line-height: calc(14px*2);
     letter-spacing: 1px;
 }
-#contato .container p{
+/*
+#contato .t2{
+    margin: 50px 0;
+}
+#contato .container .t2 p{
     height: auto;
     width: 90vw;
     text-align: center;
     color: var(--branco);
     font-family: 'Fira Code', monospace;
     font-size: 14px;
-    margin: 30px 0;
+    margin: 40px 0;
 }
-#contato p.p-italic{
+#contato .t2 p.p-italic{
     font-family: 'Times New Roman';
     font-weight: 300;
     font-style: italic; 
     letter-spacing: 2px;
     font-size: 14px;
 }
+*/
