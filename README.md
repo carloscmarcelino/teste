@@ -1,4 +1,4 @@
-<h2 style="color: #eb7a55;">Meu site portfólio, feito carinhosamente por mim.</h2>
+#### Meu site portfólio, feito carinhosamente por mim.
 
 ![](https://pics.prcm.jp/pib1303698102/6570655/gif/6570655.gif)
 
@@ -8,16 +8,14 @@
 ![vs](https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-<h2 style="color: #eb7a55;">Desktop</h2>
-
-<h3 style="color: #eb7a55;">Home</h3>
+#### Home
 <img src="assets/img/md/1.png">
 
-<h3 style="color: #eb7a55;">Sobre</h3>
+#### Sobre
 <img src="assets/img/md/2.png">
 
-<h3 style="color: #eb7a55;">Projetos e skills</h3>
+#### Projetos
 <img src="assets/img/md/3.png">
 
-<h3 style="color: #eb7a55;">Contato</h3>
+#### Skills e contato
 <img src="assets/img/md/4.png">
