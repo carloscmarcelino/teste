@@ -30,18 +30,6 @@
         padding-top: 2%;
     }
 }
-/*530px*/
-@media only screen and (max-width: 530px){
-    header ul li a{
-        font-size: 0.9em;
-    }
-}
-/*425px*/
-@media only screen and (max-width: 360px){
-    header ul li a{
-        font-size: 0.8em;
-    }
-}
 /*-460px-*/
 @media only screen and (max-width: 460px){
     #sobremim .sobremim-container .coments p{
@@ -55,12 +43,6 @@
 @media only screen and (max-width: 330px){
     footer i{
         margin: 10px 20px;
-    }
-}
-/*325px*/
-@media only screen and (max-width: 325px){
-    header ul li a{
-        font-size: 0.6em;
     }
 }
 /*311px*/

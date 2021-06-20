@@ -15,3 +15,6 @@ scrollTop();
 
 import debounce from './modules/debounce.js';
 debounce();
+
+import menuMobile from './modules/menuMobile.js';
+menuMobile();
