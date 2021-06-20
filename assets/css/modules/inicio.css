@@ -13,14 +13,14 @@
     font-family: 'Fira Code', monospace;
     font-size: 26px;
     color: var(--branco);
-    font-weight: 700;
+    font-weight: 500;
 }
 #inicio .inicio-container h1{
     font-family: 'Fira Code', monospace;
     font-size: 30px;
     padding: 5px 0;
     color: var(--branco);
-    font-weight: 700;
+    font-weight: 500;
 }
 #inicio .inicio-container h1::after{
     content: '|';

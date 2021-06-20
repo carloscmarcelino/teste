@@ -11,7 +11,7 @@
 #projetos h1{
     font-family: 'Fira Code', monospace;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--laranja);
     text-align: center;
     margin-bottom: 20px;
@@ -73,7 +73,7 @@
     color: var(--branco);
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
 }
 #projetos-card .card ul{
     display: flex;
@@ -92,7 +92,7 @@
     width: auto;
     height: auto;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin: 5px 5px;
     font-family: 'Fira Code', monospace;
     font-weight: 300;

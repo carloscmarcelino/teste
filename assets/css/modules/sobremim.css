@@ -28,7 +28,7 @@
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
     color: var(--laranja);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
 }
 #sobremim .sobremim-container .coments a{
