@@ -10,13 +10,13 @@
     margin-right: 30%;
 }
 #inicio .inicio-container h2{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 26px;
     color: var(--branco);
     font-weight: 500;
 }
 #inicio .inicio-container h1{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
     padding: 5px 0;
     color: var(--branco);
@@ -35,10 +35,6 @@
     50%{
         opacity: 0;
     }
-}
-#inicio .inicio-container p, a{
-    font-family: 'Fira Code', monospace;
-    font-size: 18px;
 }
 .laranja{
     color: var(--laranja);

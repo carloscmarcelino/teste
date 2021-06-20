@@ -10,7 +10,7 @@
 }
 #skills h2{
     margin-bottom: 20px;
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     color: var(--laranja);
@@ -45,9 +45,9 @@
     font-size: 40px;
 }
 #skills p{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--branco);
     background: var(--roxo-gradient);
     border-radius: 5px;

@@ -13,8 +13,8 @@
 }
 #contato .container h2{
     color: var(--branco);
-    font-size: 20px;
-    font-family: 'Fira Code', monospace;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     font-weight: normal;
@@ -27,9 +27,9 @@
 #contato li{
     color: var(--branco);
     text-align: center;
-    font-size: 14px;
-    font-family: 'Fira Code', monospace;
-    line-height: calc(14px*2);
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: calc(16px*2);
     letter-spacing: 1px;
     font-weight: 300;
 }

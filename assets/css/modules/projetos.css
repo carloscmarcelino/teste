@@ -9,7 +9,7 @@
     padding: 100px 0;
 }
 #projetos h1{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     color: var(--laranja);
@@ -58,16 +58,16 @@
     }
 }
 #projetos h2{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: var(--laranja);
     text-align: center;
 }
 #projetos-card .card p{
-    font-family: 'Fira Code', monospace;
-    font-size: 14px;
-    line-height: calc(14px*1.5);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: calc(16px*1.5);
     font-weight: 300;
     text-align: center;
     color: var(--branco);
@@ -87,13 +87,13 @@
     background: var(--roxo-gradient);
     color: var(--branco);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     min-width: 80px;
     width: auto;
     height: auto;
     text-align: center;
     padding: 5px 5px;
     margin: 5px 5px;
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
 }

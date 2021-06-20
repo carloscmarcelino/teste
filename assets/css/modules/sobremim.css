@@ -17,7 +17,7 @@
     margin-right: 5vw;
 }
 #sobremim .sobremim-container p{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: calc(16px*1.5);
@@ -26,7 +26,7 @@
     margin: 10px 0;
 }
 #sobremim .sobremim-container .coments h2{
-    font-family: 'Fira Code', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: var(--laranja);
     font-weight: 500;
     font-size: 22px;
@@ -58,9 +58,9 @@
     padding: 15px 15px;
 }
 #sobremim .sobremim-container .coments h3{
-    font-size: 14px;
-    font-family: 'Fira Code', monospace;
-    font-weight: 500;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     color: var(--branco);
 }
 #sobremim .sobremim-container .coments i{

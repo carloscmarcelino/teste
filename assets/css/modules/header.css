@@ -26,10 +26,10 @@ header ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Fira Code', monospace;
-    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
     color: var(--branco);
-    font-weight: 500;
+    font-weight: 400;
 }
 header ul li a::after{
     content: '';
