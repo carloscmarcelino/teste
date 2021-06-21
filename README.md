@@ -9,3 +9,6 @@
 
 #### Skills e contatos
 <img src="assets/img/md/3.png">
+
+<!-- npm run dev ( para modo desenvolvedor, testes sei la. ) -->
+<!-- npm run build ( para modo produção, modo final etc. ) -->
