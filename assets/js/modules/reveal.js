@@ -1,4 +1,4 @@
-export default function reveal(){
+export default function reveal() {
     /*Top*/
     const sr = ScrollReveal({
         origin: 'top',
@@ -6,6 +6,7 @@ export default function reveal(){
         duration: 2000,
         reset: false
     });
+
     sr.reveal('.titulo-delay',{delay: 200})
     sr.reveal('.cards-interval',{interval: 400})
     /*Left*/
@@ -15,6 +16,7 @@ export default function reveal(){
         duration: 2000,
         reset: false
     });
+
     srl.reveal('.titulo-delayLeft',{delay: 200})
     srl.reveal('.cards-intervalLeft',{interval: 400})
     /*No-reset*/

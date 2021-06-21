@@ -1,4 +1,4 @@
-export default function scrollTop(){
+export default function scrollTop() {
     const menuItens = document.querySelectorAll('header a[href^="#"]')
     menuItens.forEach(item => {
         item.addEventListener('click', scrollToIdOnClick)

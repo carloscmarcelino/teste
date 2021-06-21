@@ -1,4 +1,4 @@
-export default function textEffect(){
+export default function textEffect() {
     function typeWrite(elemento){
         const textoArray = elemento.innerHTML.split('');
         elemento.innerHTML = '';

@@ -1,4 +1,4 @@
-export default function scrollBar(){
+export default function scrollBar() {
     let progress = document.getElementById('scrollbar');
     let totalHeight = document.body.scrollHeight-window.innerHeight;
     window.onscroll=function(){
