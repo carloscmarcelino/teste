@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export default function scrollTop() {
     const menuItens = document.querySelectorAll('header a[href^="#"]')
     menuItens.forEach(item => {
