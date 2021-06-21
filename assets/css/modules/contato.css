@@ -1,35 +1,54 @@
-#contato{
-    height: auto;
-    width: 100%;
-    background: var(--bg);
+#contato {
+  height: auto;
+  width: 100%;
+  background: var(--bg);
 }
-#contato .container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 100px 0;
+
+#contato .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
 }
-#contato .container h2{
-    color: var(--branco);
-    font-size: 22px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-weight: normal;
-    margin-bottom: 10px;
+
+#contato .container h2 {
+  color: var(--branco);
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
-#contato ul{
-    display: flex;
-    flex-direction: column;
+
+#contato ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-#contato li{
-    color: var(--branco);
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: calc(16px*2);
-    letter-spacing: 1px;
-    font-weight: 300;
+
+#contato li {
+  color: var(--branco);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: calc(16px*2);
+  letter-spacing: 1px;
+  font-weight: 300;
 }
+/*# sourceMappingURL=contato.css.map */

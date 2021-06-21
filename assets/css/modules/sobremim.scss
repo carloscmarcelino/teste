@@ -1,0 +1,69 @@
+#sobremim{
+    width: 100vw;
+    height: auto;
+    background-color: var(--bg-panel);
+}
+#sobremim .sobremim-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0;
+}
+#sobremim .sobremim-container img{
+    height: 20vh;
+    border-radius: 100%;
+    margin-right: 5vw;
+}
+#sobremim .sobremim-container p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: calc(16px*1.5);
+    width: 30vw;
+    color: var(--branco);
+    margin: 10px 0;
+}
+#sobremim .sobremim-container .coments h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--laranja);
+    font-weight: 500;
+    font-size: 22px;
+}
+#sobremim .sobremim-container .coments a{
+    display: block;
+    width: 120px;
+    margin: 20px 0 0 0;
+}
+#sobremim .sobremim-container .coments a button{
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+#sobremim .sobremim-container .coments a button:hover{
+    animation: scale 0.1s linear;
+    animation-fill-mode: forwards;
+}
+#sobremim .sobremim-container .coments button{
+    background: var(--roxo-gradient);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--roxo-gradient);
+    padding: 15px 15px;
+}
+#sobremim .sobremim-container .coments h3{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: var(--branco);
+}
+#sobremim .sobremim-container .coments i{
+    margin: 0 5px;
+    color: var(--branco);
+}

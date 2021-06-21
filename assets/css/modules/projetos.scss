@@ -1,0 +1,99 @@
+#projetos{
+    width: 100vw;
+    height: auto;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+#projetos h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--laranja);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#projetos .container{
+    width: 90vw;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 30px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+#projetos .container .card{
+    height:  auto;
+    min-height: 300px;
+    width: 300px;
+    background-color: var(--bg-panel);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: scaledown .1s linear;
+    animation-fill-mode: forwards;
+}
+#projetos .container .card:hover{
+    animation: scale .1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes scaledown{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+#projetos h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--laranja);
+    text-align: center;
+}
+#projetos-card .card p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: calc(16px*1.5);
+    font-weight: 300;
+    text-align: center;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    margin: 10px 0 5px 0;
+}
+#projetos-card .card ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#projetos-card .card ul li{
+    border: 1px solid #9B30F9;
+    background: var(--roxo-gradient);
+    color: var(--branco);
+    border-radius: 5px;
+    font-size: 16px;
+    min-width: 80px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}

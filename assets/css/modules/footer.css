@@ -1,17 +1,27 @@
-footer{
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--roxo-gradient);
+footer {
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--roxo-gradient);
 }
-footer i{
-    font-size: 25px;
-    margin: 0 20px;
-    color: var(--branco);
-    transition: .3s;
+
+footer i {
+  font-size: 25px;
+  margin: 0 20px;
+  color: var(--branco);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
-footer i:hover{
-    color: var(--laranja);
+
+footer i:hover {
+  color: var(--laranja);
 }
+/*# sourceMappingURL=footer.css.map */
