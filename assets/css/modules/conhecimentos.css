@@ -40,8 +40,9 @@
 }
 
 #conhecimentos .container .card {
-  width: 350px;
+  width: 300px;
   height: auto;
+  min-height: 250px;
   background: var(--bg-panel);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,13 +85,13 @@
   line-height: calc(16px*1.5);
   font-weight: 300;
   color: var(--branco);
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
 #conhecimentos .container .card i {
   color: #9B30F9;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 @-webkit-keyframes scaledown {
