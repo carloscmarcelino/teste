@@ -1,7 +1,7 @@
 #projetos {
   width: 100vw;
   height: auto;
-  background-color: var(--bg);
+  background-color: var(--bg-panel);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,8 +43,8 @@
 #projetos .container .card {
   height: auto;
   min-height: 300px;
-  width: 300px;
-  background-color: var(--bg-panel);
+  min-width: 300px;
+  background-color: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,6 +63,7 @@
           animation: scaledown .1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  padding: 25px;
 }
 
 #projetos .container .card:hover {
@@ -131,13 +132,8 @@
   font-weight: 300;
   text-align: center;
   color: var(--branco);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 10px 0 5px 0;
+  margin: 25px 0;
+  max-width: 300px;
 }
 
 #projetos-card .card ul {

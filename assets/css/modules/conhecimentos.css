@@ -1,0 +1,139 @@
+#conhecimentos {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--bg);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
+}
+
+#conhecimentos h2 {
+  margin-bottom: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--laranja);
+}
+
+#conhecimentos .container {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 30px 40px;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 90vw;
+}
+
+#conhecimentos .container .card {
+  width: 350px;
+  height: auto;
+  background: var(--bg-panel);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  -webkit-animation: scaledown .1s linear;
+          animation: scaledown .1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  padding: 20px;
+}
+
+#conhecimentos .container .card:hover {
+  -webkit-animation: scale .1s linear;
+          animation: scale .1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#conhecimentos .container .card h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--laranja);
+}
+
+#conhecimentos .container .card p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: calc(16px*1.5);
+  font-weight: 300;
+  color: var(--branco);
+  width: 80%;
+  text-align: center;
+}
+
+#conhecimentos .container .card i {
+  color: #9B30F9;
+  font-size: 40px;
+}
+
+@-webkit-keyframes scaledown {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scaledown {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=conhecimentos.css.map */

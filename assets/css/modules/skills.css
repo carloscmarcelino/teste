@@ -1,7 +1,7 @@
 #skills {
   width: 100vw;
   height: 75%;
-  background-color: var(--bg-panel);
+  background-color: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,7 +43,7 @@
 #skills .container .card {
   height: 150px;
   width: 150px;
-  background-color: var(--bg);
+  background-color: var(--bg-panel);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
