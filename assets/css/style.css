@@ -30,17 +30,35 @@ header {
   transition: .6s;
 }
 
-header.hd-Animated {
-  background: var(--bg-panel);
-  height: 6vh;
-}
-
-header h2 {
+header .logo h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: var(--branco);
-  font-size: 22px;
-  letter-spacing: 4px;
+  font-size: 24px;
+  letter-spacing: 6px;
+}
+
+header .logo span:nth-child(1) {
+  transition: .5s;
+  color: var(--laranja);
+}
+
+header .logo span:nth-child(2) {
+  transition: .5s;
+  color: var(--branco);
+}
+
+header .logo:hover span:nth-child(1) {
+  color: var(--branco);
+}
+
+header .logo:hover span:nth-child(2) {
+  color: var(--laranja);
+}
+
+header.hd-Animated {
+  background: var(--bg-panel);
+  height: 6vh;
 }
 
 header ul {
@@ -66,7 +84,7 @@ header ul li a::after {
   width: 100%;
   position: absolute;
   height: 1px;
-  background: #fff;
+  background: var(--branco);
   left: 0;
   bottom: 0;
   transform: scale(0, 1);
@@ -562,7 +580,7 @@ footer i:hover {
     overflow-y: hidden;
   }
   header.active ul {
-    height: 30vh;
+    height: 25vh;
     visibility: visible;
     overflow-y: auto;
     padding-right: 30px;

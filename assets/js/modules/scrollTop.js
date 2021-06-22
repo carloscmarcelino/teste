@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 export default function scrollTop() {
-    const menuItens = document.querySelectorAll('header a[href^="#"]')
+    const menuItens = document.querySelectorAll('header ul li a[href^="#"]')
     menuItens.forEach(item => {
         item.addEventListener('click', scrollToIdOnClick)
     })
@@ -21,4 +21,16 @@ export default function scrollTop() {
             behavior: "smooth",
         })
     }
+    /*Scroll logo*/
+    const logo = document.querySelector('#header .logo')
+    logo.addEventListener('click', (event) => {
+        event.preventDefault();
+        const idLogo = logo.getAttribute('href')
+        const home = document.querySelector(idLogo).offsetTop
+        window.scroll({
+            top: home,
+            behavior: "smooth",
+        })
+    })
+    /*Scroll logo*/
 }
