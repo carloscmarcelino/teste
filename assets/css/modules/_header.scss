@@ -18,18 +18,18 @@ header{
         }
         span:nth-child(1){
             transition: .5s;
-            color: var(--laranja);
+            color: var(--branco);
         }
         span:nth-child(2){
             transition: .5s;
-            color: var(--branco);
+            color: var(--laranja);
         }
         &:hover{
             span:nth-child(1){
-                color: var(--branco);
+                color: var(--laranja);
             }
             span:nth-child(2){
-                color: var(--laranja);
+                color: var(--branco);
             }
         }
     }
