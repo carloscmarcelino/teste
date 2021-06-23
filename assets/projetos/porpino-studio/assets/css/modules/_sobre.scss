@@ -1,0 +1,42 @@
+main .sobre{
+    min-height: 60vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--cinza);
+    span{
+        width: 10vw;
+        border-bottom: 0.1em solid var(--cinza-escuro);
+        margin: 25px 0;
+    }
+    h2{
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 10px 0;
+        font-weight: 300;
+    }
+    .container{
+        width: 35%;
+        height: auto;
+        p{
+            font-size: 16px;
+            line-height: calc(14px*1.5);
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 10px 0;
+            font-weight: 300;
+        }
+    }
+}
+/*1000px*/
+@media only screen and (max-width: 1000px){
+    main{
+        .sobre{
+            .container{
+                width: 80%;
+            }
+        }
+    }
+}

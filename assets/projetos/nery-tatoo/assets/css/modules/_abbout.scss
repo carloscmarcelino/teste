@@ -1,0 +1,123 @@
+#abbout{
+    margin: 50px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f3f3;
+        padding: 50px 0;
+    }
+    .img{
+        height: 600px;
+        width: 500px;
+        img{
+            height: 600px;
+            width: 500px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0,.2);
+        }
+        img{
+            animation: scaledown .1s linear;
+            animation-fill-mode: forwards;
+            &:hover{
+                animation: scale .1s linear;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+    .text{
+        height: 500px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            width: 80%;
+            line-height: calc(14px * 1.5);
+        }
+        ul{
+            margin-top: 10px;
+            li{
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                padding: 0 10px;
+                padding: 20px 0;
+                span.circle{
+                    background: #000;
+                    display: inline-block;
+                    height: 5px;
+                    width: 5px;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+        p + p{
+            margin-bottom: 10px;
+        }
+        li + li {
+            border-top: 1px solid rgba(0, 0, 0,.2);
+        }
+    }
+}
+@keyframes scaledown{
+    0%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+/*850px*/
+@media only screen and (max-width: 850px){
+    #abbout{
+        .container{
+            flex-direction: column;
+        }
+        .img{
+            order: 2;
+        }
+        .text{
+            order: 1;
+        }
+    }
+}
+/*515*/
+@media only screen and (max-width: 515px){
+    #abbout{
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            img{
+                height: 500px;
+                width: 95%;
+            }
+        }
+        .text{
+            width: 95%;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#sobre{
+    background: radial-gradient(circle, rgba(0,0,0,1) 55%,
+                                        rgba(15,15,15,1) 90%,
+                                        rgba(24,24,25,1) 100%);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+
+    }
+    img{
+        height: 90vh;
+    }
+}
+/*770*/
+@media only screen and (max-width: 770px){
+    #sobre .container{
+        width: 100%;
+        height: 90vh;
+        background: url(../img/bgmobile.jpg)no-repeat center;
+        background-size: 100vw 90vh;
+        img{
+            display: none;
+        }
+    }
+}
