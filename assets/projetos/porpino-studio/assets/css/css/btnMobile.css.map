@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;CAChB",
-    "sources": [
-        "../modules/btnMobile.scss"
-    ],
-    "names": [],
-    "file": "btnMobile.css"
-}
