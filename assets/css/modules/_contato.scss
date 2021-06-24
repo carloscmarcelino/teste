@@ -2,6 +2,24 @@
     height: auto;
     width: 100%;
     background: var(--bg-panel);
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 50px;
+        width: 20%;
+        background: grey;
+        label{
+            color: #fff;
+        }
+    }
+}/*
+#contato{
+    height: auto;
+    width: 100%;
+    background: var(--bg-panel);
     .container{
         width: 100%;
         display: flex;
@@ -32,4 +50,4 @@
             font-weight: 300;
         }
     }
-}
+}*/

@@ -196,14 +196,27 @@
                </div>
         </div>
         <div id="contato">
-            <div class="container">
+            <!--<div class="container">
                 <h2 class="cards-intervalLeft">Contatos</h2>
                 <ul class="cards-intervalLeft">
                     <li>carloslima1598@gmail.com</li>
                     <li>(81)99985-4518</li>
                     <li>Recife - PE</li>
                 </ul>
-            </div>
+            </div>-->
+            <form action="enviar-email.php" method="POST">
+                <h2>Contato</h2>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" required></textarea>
+
+                <button type="submit" name="enviar">Enviar</button>
+            </form>
         </div>
     </main>
     <footer>
