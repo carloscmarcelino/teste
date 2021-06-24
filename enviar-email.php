@@ -1,5 +1,9 @@
 <?php 
 
+    /*
+    error_reporting(0);
+    */
+
     $nome = utf8_encode($POST['nome']);
     $email = utf8_encode($POST['email']);
     $mensagem = utf8_encode($POST['mensagem']);
