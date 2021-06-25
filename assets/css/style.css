@@ -689,7 +689,7 @@ header ul li + li {
   background: var(--bg-panel);
 }
 
-#contato form {
+#contato .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,13 +703,32 @@ header ul li + li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 auto;
+}
+
+#contato .container h2 {
+  color: #fff;
+}
+
+#contato .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 50px;
-  width: 20%;
+  width: auto;
   background: grey;
 }
 
-#contato form label {
+#contato .container form label {
   color: #fff;
 }
 

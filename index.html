@@ -204,20 +204,18 @@
                     <li>Recife - PE</li>
                 </ul>
             </div>-->
-            <?php include("enviar-email.php") >?
-            <form action="enviar-email.php" method="POST"> 
+            <div class="container">   
                 <h2>Contato</h2>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" required>
-
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
-
-                <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" required></textarea>
-
-                <button type="submit" name="enviar">Enviar</button>
-            </form>
+                <form action="https://formspree.io/f/xoqylqkk" method="POST">
+                    <label>Nome: </label>
+                    <input type="text" name="nome" required>
+                    <label for="email">E-mail: </label>
+                    <input type="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" required></textarea>
+                    <button type="submit" name="enviar">Enviar</button>
+                </form>
+            </div>
         </div>
     </main>
     <footer>

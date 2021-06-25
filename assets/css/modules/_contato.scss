@@ -2,17 +2,25 @@
     height: auto;
     width: 100%;
     background: var(--bg-panel);
-    form{
+    .container{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 0 auto;
-        padding: 50px;
-        width: 20%;
-        background: grey;
-        label{
+        h2{
             color: #fff;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 50px;
+            width: auto;
+            background: grey;
+            label{
+                color: #fff;
+            }
         }
     }
 }/*
