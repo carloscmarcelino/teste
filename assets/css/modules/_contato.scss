@@ -35,6 +35,7 @@
             font-weight: 300;
             font-size: 18px;
             color: #000;
+            background: #f2f2f2;
         }
         textarea{
             height: 120px;
@@ -45,6 +46,7 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 300;
             font-size: 18px;
+            background: #f2f2f2;
         }
         button{
             background: var(--roxo-gradient);
@@ -56,6 +58,15 @@
             margin-top: 10px;
             width: 150px;
             height: 40px;
+        }
+        button{
+            animation: scaledown .1s linear;
+            animation-fill-mode: forwards;
+            cursor: pointer;
+            &:hover{
+                animation: scale 0.1s linear;
+                animation-fill-mode: forwards;
+            }
         }
     }    
 }

@@ -6,8 +6,11 @@
 #### Home
 <img src="assets/img/md/1.png">
 
-#### Sobre e projetos
+#### Sobre e conhecimentos
 <img src="assets/img/md/2.png">
 
-#### Skills e contatos
+#### Projetos e skills
 <img src="assets/img/md/3.png">
+
+#### contato
+<img src="assets/img/md/4.png">

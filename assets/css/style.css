@@ -744,6 +744,7 @@ header ul li + li {
   font-weight: 300;
   font-size: 18px;
   color: #000;
+  background: #f2f2f2;
 }
 
 #contato form textarea {
@@ -755,6 +756,7 @@ header ul li + li {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
   font-size: 18px;
+  background: #f2f2f2;
 }
 
 #contato form button {
@@ -767,6 +769,21 @@ header ul li + li {
   margin-top: 10px;
   width: 150px;
   height: 40px;
+}
+
+#contato form button {
+  -webkit-animation: scaledown .1s linear;
+          animation: scaledown .1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+#contato form button:hover {
+  -webkit-animation: scale 0.1s linear;
+          animation: scale 0.1s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 420px) {
