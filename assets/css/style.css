@@ -766,6 +766,13 @@ header ul li + li {
           animation-fill-mode: forwards;
 }
 
+#contato .spam {
+  border: 1px solid red;
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
 @media only screen and (max-width: 420px) {
   #contato form {
     width: 95%;

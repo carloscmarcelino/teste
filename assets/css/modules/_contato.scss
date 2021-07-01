@@ -69,6 +69,12 @@
             }
         }
     }    
+    .spam{
+        border: 1px solid red;
+        visibility: hidden;
+        height: 0px;
+        position: absolute;
+    }
 }
 @media only screen and (max-width: 420px){
     #contato{
