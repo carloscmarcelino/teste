@@ -43,42 +43,7 @@ header .logo h2 {
   font-weight: 300;
   font-size: 24px;
   letter-spacing: 6px;
-}
-
-header .logo span:nth-child(1) {
   color: var(--branco);
-  -webkit-animation: logoLaranja 5s linear infinite;
-          animation: logoLaranja 5s linear infinite;
-}
-
-@-webkit-keyframes logoLaranja {
-  50% {
-    color: var(--laranja);
-  }
-}
-
-@keyframes logoLaranja {
-  50% {
-    color: var(--laranja);
-  }
-}
-
-header .logo span:nth-child(2) {
-  color: var(--laranja);
-  -webkit-animation: logoBranco 5s linear infinite;
-          animation: logoBranco 5s linear infinite;
-}
-
-@-webkit-keyframes logoBranco {
-  50% {
-    color: var(--branco);
-  }
-}
-
-@keyframes logoBranco {
-  50% {
-    color: var(--branco);
-  }
 }
 
 header.hd-Animated {
