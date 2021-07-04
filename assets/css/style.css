@@ -381,13 +381,13 @@ header ul li + li {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 30px 40px;
-  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  -ms-grid-columns: (minmax(450px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   width: 90vw;
 }
 
 #conhecimentos .container .card {
-  min-width: 300px;
+  width: 450px;
   min-height: 250px;
   background: var(--bg-panel);
   display: -webkit-box;

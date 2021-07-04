@@ -19,10 +19,10 @@
         justify-items: center;
         justify-content: center;
         grid-gap: 30px 40px;
-        grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
         width: 90vw;
         .card{
-            min-width: 300px;
+            width: 450px;
             min-height: 250px;
             background: var(--bg-panel);
             display: flex;
