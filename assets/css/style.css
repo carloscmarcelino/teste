@@ -21,7 +21,7 @@ body {
 
 header {
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   background: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +54,6 @@ header .logo h2:hover {
 
 header.hd-Animated {
   background: var(--bg-panel);
-  height: 6vh;
 }
 
 header ul {
@@ -869,9 +868,7 @@ footer i:hover {
   header ul {
     display: block;
     position: absolute;
-    width: 20%;
-    width: auto;
-    top: 45px;
+    top: 50px;
     right: 0px;
     background: var(--bg-panel);
     -webkit-transition: .6s;
@@ -882,7 +879,7 @@ footer i:hover {
     overflow-y: hidden;
   }
   header.active ul {
-    height: 25vh;
+    height: 26vh;
     visibility: visible;
     overflow-y: auto;
     padding-right: 30px;
@@ -907,7 +904,6 @@ footer i:hover {
     cursor: pointer;
     gap: .5rem;
     margin-right: 25px;
-    margin-bottom: 5px;
   }
   #hamburger {
     display: block;

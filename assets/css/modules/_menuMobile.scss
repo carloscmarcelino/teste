@@ -13,9 +13,7 @@
     header ul{
         display: block;
         position: absolute;
-        width: 20%;
-        width: auto;
-        top: 45px;
+        top: 50px;
         right: 0px;
         background: var(--bg-panel);
         transition: .6s;
@@ -25,7 +23,7 @@
         overflow-y: hidden;
     }
     header.active ul{
-        height: 25vh;
+        height: 26vh;
         visibility: visible;
         overflow-y: auto;
         padding-right: 30px;
@@ -48,7 +46,6 @@
         cursor: pointer;
         gap: .5rem;
         margin-right: 25px;
-        margin-bottom: 5px;
     }
     #hamburger{
         display: block;

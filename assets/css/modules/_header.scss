@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -23,7 +23,6 @@ header{
     }
     &.hd-Animated{
         background: var(--bg-panel);
-        height: 6vh;
     }
     ul{
         display: flex;
