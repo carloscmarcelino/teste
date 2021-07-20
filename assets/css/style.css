@@ -973,6 +973,12 @@ footer i:hover {
   height: 2px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .pace .pace-progress {
+    background: #9B30F9;
+  }
+}
+
 /*-Scroll-bar-*/
 #scrollbar {
   position: fixed;
