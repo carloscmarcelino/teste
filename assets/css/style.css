@@ -48,10 +48,6 @@ header .logo h2 {
   transition: .5s;
 }
 
-header .logo h2:hover {
-  color: var(--laranja);
-}
-
 header.hd-Animated {
   background: var(--bg-panel);
 }
@@ -975,7 +971,7 @@ footer i:hover {
 
 @media only screen and (max-width: 1000px) {
   .pace .pace-progress {
-    background: #9B30F9;
+    background: #fafafa;
   }
 }
 
