@@ -15,6 +15,10 @@ scrollTop();
 
 import menuMobile from './modules/menuMobile.js';
 menuMobile();
+
+import tolltip from './modules/tolltip.js';
+tolltip();
+
 /*
 npm run dev
 npm run build
