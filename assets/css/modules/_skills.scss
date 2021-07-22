@@ -52,7 +52,7 @@
                 opacity: 0;
                 transition: opacity .5s;
             }
-            @media only screen and (min-width: 1200px){
+            @media only screen and (min-width: 1450px){
                 .tooltip::after {
                     content: attr(data-title);
                     display: block;

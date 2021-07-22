@@ -952,7 +952,7 @@ header ul li + li {
   transition: opacity .5s;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1450px) {
   #skills .container .card .tooltip::after {
     content: attr(data-title);
     display: block;
