@@ -878,38 +878,6 @@ header ul li + li {
   padding: 100px 0;
 }
 
-#skills .tooltip {
-  text-decoration: underline;
-  color: tomato;
-}
-
-#skills .tooltip::after {
-  content: attr(data-skills);
-  display: block;
-  position: absolute;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transform: translate(0, 10px);
-          transform: translate(0, 10px);
-  max-width: 200px;
-  font-size: 12px;
-  line-height: 1.4em;
-  font-family: courier;
-  background: #8844ee;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 2px;
-}
-
-#skills .tooltip:hover::after {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transform: translate(0, 5px);
-          transform: translate(0, 5px);
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
-}
-
 #skills h2 {
   margin-bottom: 20px;
   font-family: "IBM Plex Sans", sans-serif;
