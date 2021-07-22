@@ -20,7 +20,7 @@
             p{
                 font-family: $fontIbm;
                 font-size: 16px;
-                font-weight: 300;
+                font-weight: $fontWeight3;
                 line-height: calc(16px*1.5);
                 width: 30vw;
                 color: var(--branco);
@@ -29,7 +29,7 @@
             h2{
                 font-family: $fontIbm;
                 color: var(--laranja);
-                font-weight: 500;
+                font-weight: $fontWeight1;
                 font-size: 22px;
             }
             .btns{
@@ -63,7 +63,7 @@
                     h3{
                         font-size: 16px;
                         font-family: $fontIbm;
-                        font-weight: 300;
+                        font-weight: $fontWeight3;
                         color: var(--branco);
                     }
                     i{

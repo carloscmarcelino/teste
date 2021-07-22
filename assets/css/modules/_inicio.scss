@@ -11,14 +11,14 @@
             font-family: $fontIbm;
             font-size: 26px;
             color: var(--branco);
-            font-weight: 500;
+            font-weight: $fontWeight1;
         }
         h1{
             font-family: $fontIbm;
             font-size: 30px;
             padding: 5px 0;
             color: var(--branco);
-            font-weight: 500;
+            font-weight: $fontWeight1;
             &::after{
                 content: '|';
                 margin-left: 5px;
@@ -55,8 +55,6 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            h2{
-            }
             h1{
                 width: 90%;
             }

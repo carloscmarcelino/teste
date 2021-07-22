@@ -11,7 +11,7 @@
         margin-bottom: 20px;
         font-family: $fontIbm;
         font-size: 22px;
-        font-weight: 500;
+        font-weight: $fontWeight1;
         color: var(--laranja);
     }
     .container{
@@ -65,7 +65,7 @@
             h1{
                 font-family: $fontIbm;
                 font-size: 18px;
-                font-weight: 500;
+                font-weight: $fontWeight1;
                 color: var(--laranja);
                 text-align: center;
             }
@@ -73,7 +73,7 @@
                 font-family: $fontIbm;
                 font-size: 16px;
                 line-height: calc(16px*1.5);
-                font-weight: 300;
+                font-weight: $fontWeight3;
                 color: var(--branco);
                 width: 90%;
                 text-align: center;

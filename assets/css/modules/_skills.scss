@@ -11,7 +11,7 @@
         margin-bottom: 20px;
         font-family: $fontIbm;
         font-size: 22px;
-        font-weight: 500;
+        font-weight: $fontWeight1;
         color: var(--laranja);
         text-align: center;
     }
@@ -32,7 +32,7 @@
             justify-content: space-evenly;
             animation: scaledown .1s linear;
             animation-fill-mode: forwards;
-           /*&::before{
+           &::before{
                 content: '';
                 position: absolute;
                 top: -2px;
@@ -57,7 +57,7 @@
             }
             &:hover::after{
                 animation: animateLinkAfter 0.5s linear forwards;
-            }*/
+            }
             &:hover{
                 animation: scale 0.1s linear;
                 animation-fill-mode: forwards;
@@ -71,7 +71,7 @@
             }
             p{
                 font-family: $fontIbm;
-                font-weight: 300;
+                font-weight: $fontWeight3;
                 font-size: 16px;
                 color: var(--branco);
                 background: var(--roxo-gradient);

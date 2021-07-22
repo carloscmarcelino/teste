@@ -11,7 +11,7 @@ header{
     .logo{
         h2{
             font-family: $fontJosefin;
-            font-weight: 300;
+            font-weight: $fontWeight3;
             font-size: 24px;
             letter-spacing: 6px;
             color: var(--branco);
@@ -34,7 +34,7 @@ header{
                 font-family: $fontIbm;
                 font-size: 18px;
                 color: var(--branco);
-                font-weight: 400;
+                font-weight: $fontWeight2;
                 position: relative;
                 &::after{
                     content: '';
