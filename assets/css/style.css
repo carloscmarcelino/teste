@@ -961,13 +961,15 @@ header ul li + li {
     opacity: 0;
     -webkit-transform: translate(0, 10px);
             transform: translate(0, 10px);
-    width: 100px;
+    width: 125px;
     font-size: 14px;
     line-height: calc(1.5 * 14px);
     font-family: Georgia, "Times New Roman", Times, serif;
-    background: #8844ee;
+    background: #84e;
     color: #fafafa;
     padding: 10px;
+    border-radius: 5px;
+    text-align: left;
   }
   #skills .container .card .tooltip:hover::after {
     visibility: visible;

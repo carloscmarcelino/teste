@@ -60,13 +60,15 @@
                     visibility: hidden;
                     opacity: 0;
                     transform: translate(0, 10px);
-                    width: 100px;
+                    width: 125px;
                     font-size: 14px;
                     line-height: calc(1.5 * 14px);
                     font-family: $fontForm;
-                    background: #8844ee;
+                    background: #84e;
                     color: #fafafa;
                     padding: 10px;
+                    border-radius: 5px;
+                    text-align: left;
                 }
                 .tooltip:hover::after {
                     visibility: visible;
