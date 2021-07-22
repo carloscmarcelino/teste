@@ -8,7 +8,7 @@
     justify-content: center;
     padding: 100px 0;
     h1{
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: $fontIbm;
         font-size: 22px;
         font-weight: 500;
         color: var(--laranja);
@@ -23,16 +23,16 @@
         grid-gap: 30px 40px;
         grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
         .card{
-            min-height: 300px;
-            width: 300px;
-            background-color: var(--bg);
+            min-height: 250px;
+            min-width: 350px;
+            padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
+            background-color: var(--bg);
             animation: scaledown .1s linear;
             animation-fill-mode: forwards;
-            padding: 25px;
             &::before{
                 content: '';
                 position: absolute;
@@ -64,20 +64,19 @@
                 animation-fill-mode: forwards;
             }
             h2{
-                font-family: 'IBM Plex Sans', sans-serif;
+                font-family: $fontIbm;
                 font-size: 18px;
                 font-weight: 500;
                 color: var(--laranja);
                 text-align: center;
             }
             p{
-                font-family: 'IBM Plex Sans', sans-serif;
+                font-family: $fontIbm;
                 font-size: 16px;
                 line-height: calc(16px*1.5);
                 font-weight: 300;
                 text-align: center;
                 color: var(--branco);
-                margin: 25px 0;
                 max-width: 300px;
             }
             ul{
@@ -86,6 +85,7 @@
                 justify-content: center;
                 flex-direction: row;
                 flex-wrap: wrap;
+                max-width: 300px;
                 li{
                     border: 1px solid #9B30F9;
                     background: var(--roxo-gradient);
@@ -98,7 +98,7 @@
                     text-align: center;
                     padding: 2.5px;
                     margin: 5px 5px;
-                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-family: $fontIbm;
                     font-weight: 300;
                 }
             }

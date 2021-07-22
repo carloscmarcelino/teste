@@ -9,7 +9,7 @@
     padding: 100px 0;
     h2{
         margin-bottom: 20px;
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: $fontIbm;
         font-size: 22px;
         font-weight: 500;
         color: var(--laranja);
@@ -22,7 +22,7 @@
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
         width: 90vw;
         .card{
-            width: 400px;
+            min-width: 350px;
             min-height: 250px;
             background: var(--bg-panel);
             display: flex;
@@ -31,7 +31,7 @@
             flex-direction: column;
             animation: scaledown .1s linear;
             animation-fill-mode: forwards;
-            padding: 20px;
+            padding: 0;
             &::before{
                 content: '';
                 position: absolute;
@@ -63,14 +63,14 @@
                 animation-fill-mode: forwards;
             }
             h1{
-                font-family: 'IBM Plex Sans', sans-serif;
+                font-family: $fontIbm;
                 font-size: 18px;
                 font-weight: 500;
                 color: var(--laranja);
                 text-align: center;
             }
             p{
-                font-family: 'IBM Plex Sans', sans-serif;
+                font-family: $fontIbm;
                 font-size: 16px;
                 line-height: calc(16px*1.5);
                 font-weight: 300;

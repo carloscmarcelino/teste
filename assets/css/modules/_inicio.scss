@@ -8,13 +8,13 @@
         display: inline-block;
         margin-right: 30%;
         h2{
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: $fontIbm;
             font-size: 26px;
             color: var(--branco);
             font-weight: 500;
         }
         h1{
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: $fontIbm;
             font-size: 30px;
             padding: 5px 0;
             color: var(--branco);

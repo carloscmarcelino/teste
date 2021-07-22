@@ -8,7 +8,7 @@
     justify-content: center;
     flex-direction: column;
     h2{
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: $fontIbm;
         font-size: 22px;
         font-weight: 500;
         color: var(--laranja);
@@ -22,7 +22,7 @@
         label{
             text-align: center;
             margin-top: 10px;
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: $fontIbm;
             font-weight: 400;
             font-size: 16px;
             color: var(--branco);
@@ -31,7 +31,7 @@
             border: 2px solid var(--laranja);
             height: 38px;
             width: 400px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: $fontForm;
             font-weight: 300;
             font-size: 16px;
             color: #000;
@@ -44,7 +44,7 @@
             color: #000;
             border: 2px solid var(--laranja);
             line-height: calc(16px*2);
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: $fontForm;
             font-weight: 300;
             font-size: 16px;
             background: #f2f2f2;
@@ -62,7 +62,7 @@
             background: var(--roxo-gradient);
             border: 1px solid var(--roxo-gradient);
             font-size: 18px;
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: $fontIbm;
             font-weight: 400;
             color: var(--branco);
             margin-top: 10px;

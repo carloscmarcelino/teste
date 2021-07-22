@@ -1,18 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
-}
-:root{
-    --bg: #282A2D;
-    --bg-panel: #1B1D20;
-    --laranja: #eb7a55;
-    --branco: #fafafa;
-    --roxo-gradient: linear-gradient(#9B30F9, #84e);
-    --border-animation: #84e;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 body{
-    background: var(--bg);
+  background: var(--bg);
 }
