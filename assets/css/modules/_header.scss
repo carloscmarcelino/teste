@@ -28,7 +28,7 @@ header{
             a{
                 @include FlexCenter;
                 font-family: $fontIbm;
-                font-size: 18px;
+                font-size: $fontSize2;
                 color: var(--branco);
                 font-weight: $fontWeight2;
                 position: relative;

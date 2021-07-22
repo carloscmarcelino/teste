@@ -7,7 +7,7 @@
     flex-direction: column;
     h2{
         font-family: $fontIbm;
-        font-size: 22px;
+        font-size: $fontSize1;
         font-weight: $fontWeight1;
         color: var(--laranja);
         margin-bottom: 20px;
@@ -22,7 +22,7 @@
             margin-top: 10px;
             font-family: $fontIbm;
             font-weight: $fontWeight2;
-            font-size: 16px;
+            font-size: $fontSize3;
             color: var(--branco);
         }
         input{
@@ -31,7 +31,7 @@
             width: 400px;
             font-family: $fontForm;
             font-weight: $fontWeight3;
-            font-size: 16px;
+            font-size: $fontSize3;
             color: #000;
             background: #f2f2f2;
             padding: 0.5rem;
@@ -44,7 +44,7 @@
             line-height: calc(16px*2);
             font-family: $fontForm;
             font-weight: $fontWeight3;
-            font-size: 16px;
+            font-size: $fontSize3;
             background: #f2f2f2;
             resize: none;
             transition: 0.2s;
@@ -59,7 +59,7 @@
         button{
             background: var(--roxo-gradient);
             border: 1px solid var(--roxo-gradient);
-            font-size: 18px;
+            font-size: $fontSize2;
             font-family: $fontIbm;
             font-weight: $fontWeight2;
             color: var(--branco);

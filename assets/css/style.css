@@ -446,7 +446,7 @@ header ul li + li {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: calc(16px*1.5);
+  line-height: calc(1.5 * 16px);
   width: 30vw;
   color: var(--branco);
   margin: 10px 0;
@@ -664,7 +664,7 @@ header ul li + li {
 #conhecimentos .container .card p {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
-  line-height: calc(16px*1.5);
+  line-height: calc(1.5 * 16px);
   font-weight: 300;
   color: var(--branco);
   width: 90%;
@@ -804,7 +804,7 @@ header ul li + li {
 #projetos .container .card p {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
-  line-height: calc(16px*1.5);
+  line-height: calc(1.5 * 16px);
   font-weight: 300;
   text-align: center;
   color: var(--branco);

@@ -8,7 +8,7 @@
     h2{
         margin-bottom: 20px;
         font-family: $fontIbm;
-        font-size: 22px;
+        font-size: $fontSize1;
         font-weight: $fontWeight1;
         color: var(--laranja);
         text-align: center;
@@ -70,7 +70,7 @@
             p{
                 font-family: $fontIbm;
                 font-weight: $fontWeight3;
-                font-size: 16px;
+                font-size: $fontSize3;
                 color: var(--branco);
                 background: var(--roxo-gradient);
                 border-radius: 5px;

@@ -8,7 +8,7 @@
     h2{
         margin-bottom: 20px;
         font-family: $fontIbm;
-        font-size: 22px;
+        font-size: $fontSize1;
         font-weight: $fontWeight1;
         color: var(--laranja);
     }
@@ -62,15 +62,15 @@
             }
             h1{
                 font-family: $fontIbm;
-                font-size: 18px;
+                font-size: $fontSize2;
                 font-weight: $fontWeight1;
                 color: var(--laranja);
                 text-align: center;
             }
             p{
                 font-family: $fontIbm;
-                font-size: 16px;
-                line-height: calc(16px*1.5);
+                font-size: $fontSize3;
+                line-height: calc(1.5 * #{$fontSize3});
                 font-weight: $fontWeight3;
                 color: var(--branco);
                 width: 90%;
