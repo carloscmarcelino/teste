@@ -921,32 +921,6 @@ header ul li + li {
           animation: scaledown .1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  /*&::before{
-                content: '';
-                position: absolute;
-                top: -2px;
-                left: -2px;
-                width: 0;
-                height: 0;
-                background: transparent;
-                border: 2px solid transparent;
-            }
-            &:hover::before{
-                animation: animateLinkBefore 0.5s linear forwards;
-            }
-            &::after{
-                content: '';
-                position: absolute;
-                top: -2px;
-                left: -2px;
-                width: 0;
-                height: 0;
-                background: transparent;
-                border: 2px solid transparent;
-            }
-            &:hover::after{
-                animation: animateLinkAfter 0.5s linear forwards;
-            }*/
 }
 
 #skills .container .card:hover {
