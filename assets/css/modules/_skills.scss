@@ -53,10 +53,10 @@
                 opacity: 0;
                 transition: opacity .5s;
             }
-            @media only screen and (max-width: 1400px){
+            @media only screen and (max-width: 1650px){
                 @include animationBorder;
             }
-            @media only screen and (min-width: 1450px){
+            @media only screen and (min-width: 1700px){
                 .tooltip::after {
                     content: attr(data-title);
                     display: block;
