@@ -15,3 +15,6 @@ scrollTop();
 
 import menuMobile from './modules/menuMobile.js';
 menuMobile();
+
+import idade from './modules/idade.js';
+idade();
