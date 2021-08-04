@@ -814,7 +814,7 @@ header ul li + li {
   transition: opacity .5s;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1350px) {
   #skills .container .card::before {
     content: '';
     position: absolute;
@@ -845,7 +845,7 @@ header ul li + li {
   }
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1400px) {
   #skills .container .card .tooltip::after {
     content: attr(data-title);
     display: block;
@@ -854,7 +854,7 @@ header ul li + li {
     opacity: 0;
     -webkit-transform: translate(0, 10px);
             transform: translate(0, 10px);
-    width: 125px;
+    width: 150px;
     font-size: 14px;
     line-height: calc(1.5 * 14px);
     font-family: Georgia, "Times New Roman", Times, serif;
