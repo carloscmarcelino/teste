@@ -916,7 +916,7 @@ header ul li + li {
 
 #contato form label {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -933,6 +933,7 @@ header ul li + li {
   color: #000;
   background: #f2f2f2;
   padding: 0.5rem;
+  border-radius: 5px;
 }
 
 #contato form textarea {
@@ -949,6 +950,7 @@ header ul li + li {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   padding: 0.5rem;
+  border-radius: 5px;
 }
 
 #contato form input:focus,
@@ -968,6 +970,7 @@ header ul li + li {
   margin-top: 10px;
   width: 150px;
   height: 40px;
+  border-radius: 5px;
 }
 
 #contato form button {
