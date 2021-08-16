@@ -297,7 +297,7 @@ header ul li a::after {
   transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
-header ul li a:hover::after {
+header ul li a:hover::after, header ul li a.active::after {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }

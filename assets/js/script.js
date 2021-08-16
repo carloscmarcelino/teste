@@ -18,3 +18,6 @@ menuMobile();
 
 import idade from './modules/idade.js';
 idade();
+
+import animeScroll from './modules/animeScroll.js';
+animeScroll();

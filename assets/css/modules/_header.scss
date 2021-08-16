@@ -44,7 +44,8 @@ header{
                     transform-origin: 0% 100%;
                     transition: transform .3s ease;
                 } 
-                &:hover::after{
+                &:hover::after,
+                &.active::after{
                     transform: scale(1,1);
                 }
             }
