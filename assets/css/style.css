@@ -810,7 +810,7 @@ header ul li + li {
   padding: 5px 10px;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 799px) {
   #skills .container .card::before {
     content: '';
     position: absolute;
@@ -841,7 +841,7 @@ header ul li + li {
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 800px) {
   #skills .container .card .tooltip::after {
     content: attr(data-title);
     display: block;
