@@ -39,7 +39,7 @@ $fontWeight3: 300;
     border: 2px solid transparent;
   }
   &:hover::before{
-      animation: animateLinkBefore .5s linear forwards;
+      animation: animateLinkBefore .4s linear forwards;
   }
   &::after{
       content: '';
@@ -52,6 +52,6 @@ $fontWeight3: 300;
       border: 2px solid transparent;
   }
   &:hover::after{
-      animation: animateLinkAfter .5s linear forwards;
+      animation: animateLinkAfter .4s linear forwards;
   }
 }

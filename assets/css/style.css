@@ -626,8 +626,8 @@ header ul li + li {
 }
 
 #projetos .container .card:hover::before {
-  -webkit-animation: animateLinkBefore .5s linear forwards;
-          animation: animateLinkBefore .5s linear forwards;
+  -webkit-animation: animateLinkBefore .4s linear forwards;
+          animation: animateLinkBefore .4s linear forwards;
 }
 
 #projetos .container .card::after {
@@ -642,8 +642,8 @@ header ul li + li {
 }
 
 #projetos .container .card:hover::after {
-  -webkit-animation: animateLinkAfter .5s linear forwards;
-          animation: animateLinkAfter .5s linear forwards;
+  -webkit-animation: animateLinkAfter .4s linear forwards;
+          animation: animateLinkAfter .4s linear forwards;
 }
 
 #projetos .container .card:hover {
@@ -822,8 +822,8 @@ header ul li + li {
     border: 2px solid transparent;
   }
   #skills .container .card:hover::before {
-    -webkit-animation: animateLinkBefore .5s linear forwards;
-            animation: animateLinkBefore .5s linear forwards;
+    -webkit-animation: animateLinkBefore .4s linear forwards;
+            animation: animateLinkBefore .4s linear forwards;
   }
   #skills .container .card::after {
     content: '';
@@ -836,8 +836,8 @@ header ul li + li {
     border: 2px solid transparent;
   }
   #skills .container .card:hover::after {
-    -webkit-animation: animateLinkAfter .5s linear forwards;
-            animation: animateLinkAfter .5s linear forwards;
+    -webkit-animation: animateLinkAfter .4s linear forwards;
+            animation: animateLinkAfter .4s linear forwards;
   }
 }
 
