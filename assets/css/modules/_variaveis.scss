@@ -1,3 +1,9 @@
+*{
+  &::selection {
+    background-color: #84E;
+  }
+}
+
 :root{
   --bg: #282A2D;
   --bg-panel: #1B1D20;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,14 @@
 
 body {
   background: var(--bg);
+}
+
+*::-moz-selection {
+  background-color: #84E;
+}
+
+*::selection {
+  background-color: #84E;
 }
 
 :root {
@@ -245,7 +254,7 @@ header .logo h2 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   font-size: 24px;
-  letter-spacing: 5px;
+  letter-spacing: 2.5px;
   color: var(--branco);
 }
 
@@ -925,7 +934,7 @@ header ul li + li {
 
 #contato form input {
   border: 2px solid var(--laranja);
-  height: 38px;
+  height: 40px;
   width: 400px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 300;
@@ -937,7 +946,7 @@ header ul li + li {
 }
 
 #contato form textarea {
-  height: 120px;
+  height: 150px;
   width: 400px;
   color: #000;
   border: 2px solid var(--laranja);
@@ -963,14 +972,16 @@ header ul li + li {
 #contato form button {
   background: var(--roxo-gradient);
   border: 1px solid var(--roxo-gradient);
-  font-size: 18px;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
   color: var(--branco);
   margin-top: 10px;
   width: 150px;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 16px;
 }
 
 #contato form button {
@@ -979,6 +990,11 @@ header ul li + li {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   cursor: pointer;
+}
+
+#contato form button::after {
+  content: '🡒';
+  margin-left: 10px;
 }
 
 #contato form button:hover {

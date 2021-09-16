@@ -27,7 +27,7 @@
         }
         input{
             border: 2px solid var(--laranja);
-            height: 38px;
+            height: 40px;
             width: 400px;
             font-family: $fontForm;
             font-weight: $fontWeight3;
@@ -38,7 +38,7 @@
             border-radius: 5px;
         }
         textarea{
-            height: 120px;
+            height: 150px;
             width: 400px;
             color: #000;
             border: 2px solid var(--laranja);
@@ -61,19 +61,28 @@
         button{
             background: var(--roxo-gradient);
             border: 1px solid var(--roxo-gradient);
-            font-size: $fontSize2;
-            font-family: $fontIbm;
-            font-weight: $fontWeight2;
             color: var(--branco);
             margin-top: 10px;
             width: 150px;
-            height: 40px;
+            height: 50px;
             border-radius: 5px;
+            // font-size: $fontSize2;
+            // font-family: $fontIbm;
+            // font-weight: $fontWeight2;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 16px;
         }
         button{
             animation: scaledown .1s linear;
             animation-fill-mode: forwards;
             cursor: pointer;
+            &::after{
+                content: '🡒';
+                margin-left: 10px;
+            }
             &:hover{
                 animation: scale 0.1s linear;
                 animation-fill-mode: forwards;
