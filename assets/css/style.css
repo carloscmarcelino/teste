@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -992,9 +991,8 @@ header ul li + li {
   cursor: pointer;
 }
 
-#contato form button::after {
-  content: '🡒';
-  margin-left: 10px;
+#contato form button i {
+  font-size: 14px;
 }
 
 #contato form button:hover {

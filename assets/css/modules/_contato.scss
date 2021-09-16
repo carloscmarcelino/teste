@@ -79,9 +79,8 @@
             animation: scaledown .1s linear;
             animation-fill-mode: forwards;
             cursor: pointer;
-            &::after{
-                content: '🡒';
-                margin-left: 10px;
+            i{
+                font-size: 14px;
             }
             &:hover{
                 animation: scale 0.1s linear;
