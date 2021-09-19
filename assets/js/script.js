@@ -21,3 +21,6 @@ idade();
 
 import animeScroll from './modules/animeScroll.js';
 animeScroll();
+
+import projetos from './modules/projetos.js';
+projetos();

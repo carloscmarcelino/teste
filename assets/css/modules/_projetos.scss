@@ -1,4 +1,7 @@
 #projetos{
+    .hidden{
+        display: none;
+    }
     width: 100vw;
     height: auto;
     background: $bg1;
@@ -14,7 +17,7 @@
         margin-bottom: 20px;
     }
     .container{
-        max-width: 90vw;
+        max-width: 100vw;
         justify-items: center;
         justify-content: center;
         display: grid;
